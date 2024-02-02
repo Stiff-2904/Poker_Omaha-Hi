@@ -30,3 +30,22 @@
 *.exe
 *.out
 *.app
+/external/include/SFML/Graphics
+/external/include/SFML/Network
+/external/lib/cmake/SFML
+/external/lib/Debug
+/.vs/Poker_Omaha Hi/v17
+/pruebas/Textures
+/pruebas/Fonts
+/pruebas/x64/Debug/pruebas.tlog
+/pruebas/x64/Debug
+/x64/Debug
+/external/include/SFML/Window
+/external/include/SFML/System
+/external/include/SFML
+/.vs/pruebas/v17
+/.vs/pruebas/FileContentIndex
+/.vs/Poker_Omaha Hi/FileContentIndex
+/.vs
+/pruebas/Debug/pruebas.tlog
+/pruebas/Debug
