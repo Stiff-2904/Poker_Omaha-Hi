@@ -2,37 +2,19 @@
 
 PokerCard::PokerCard() { this->isGiven = false; }
 
-PokerCard::PokerCard(int numberCard, string color, string suit) {// preguntar si esto es nesesario
-	this->numberCard = numberCard;
-	this->color = color;
-	this->suit = suit;
+PokerCard::PokerCard(int numberCard) {
+	this->nameValue = numberCard;
 }
 
 PokerCard::~PokerCard() {
 }
 
 int PokerCard::getNumberCard() {
-	return this->numberCard;
+	return this->nameValue;
 }
 
 void PokerCard::setNumberCard(int numberCard) {
-	this->numberCard = numberCard;
-}
-
-string PokerCard::getColor() {
-	return this->color;
-}
-
-void PokerCard::setColor(string color) {
-	this->color = color;
-}
-
-string PokerCard::getSuit() {
-	return this->suit;
-}
-
-void PokerCard::setSuit(string suit) {
-	this->suit = suit;
+	this->nameValue = numberCard;
 }
 
 bool PokerCard::getIsGiven() {
@@ -42,3 +24,20 @@ bool PokerCard::getIsGiven() {
 void PokerCard::setIsGiven(bool isGiven) {
 	this->isGiven = isGiven;
 }
+void setTexture(std::string typeOfCard) {
+
+//TO DO insertar el metodo que esta en Button CardPoker->shape.setTexture();
+
+}
+
+void drawMe(sf::RenderWindow window) { 
+//implementar for
+draw.window(this->shape);
+
+}
+
+// hacer el metodo que toquen la carta HMMMMMMMMMM
+
+//hacen las figuras y cargan las imagenes ahi 
+//shape texture le enviamos el vect
+//texure recibe la carta 

@@ -35,11 +35,9 @@ void loopRefresh() {
 void startMenu() {
     // Load textures and fonts outside the loop
     backgroundMenuFile.loadFromFile("Textures/background_black1.png");
-    backgroundGameFile.loadFromFile("Textures/background_game.jpeg");
     backgroundPlayersFile.loadFromFile("Textures/background_players.png");
 
     backgroundMenu.setTexture(backgroundMenuFile);
-    backgroundGame.setTexture(backgroundGameFile);
     backgroundPlayer.setTexture(backgroundPlayersFile);
     font1.loadFromFile("Fonts/texas_font.otf");
 
@@ -101,7 +99,6 @@ void startMenu() {
 void aboutWindow() {
 
 	backgroundMenuFile.loadFromFile("Textures/background_black1.png");
-	backgroundGameFile.loadFromFile("Textures/background_game.jpeg");
 	backgroundPlayersFile.loadFromFile("Textures/background_players.png");
 	backgroundMenu.setTexture(backgroundMenuFile);
 	backgroundGame.setTexture(backgroundGameFile);
@@ -247,30 +244,41 @@ void numOfPlayers() {
 			}
 			if (button5.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
 				//agregar una lista circular con 5 players
-                sizePlayers = 5;
+                sizePlayers = 4;
 				game();
 			}
 			if (button6.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
 				//agregar una lista circular con 6 players
                 sizePlayers = 6;
-				game();
+				game(); 
 			}
         }
     }
 }
 
 void game() {
+
+    backgroundGameFile.loadFromFile("Textures/background_game3.png");
+    backgroundGame.setTexture(backgroundGameFile);
     Button increaseBetButton, decreaseBetButton;
     ListPlayer listOfPlayers(sizePlayers);
     Player* playerAux;
     Dealer dealer;
+    PokerCard* cardCommunity;
 
-    playerAux = listOfPlayers.searchplayer("Player 1");
+    playerAux = listOfPlayers.searchplayer("Player 1");        // TEXURE(std:: string)  {this->texture = new...}      for(....) { PokerCard[i].setTexture(cardsInHand[i])}
 
     dealer.fillDeck();
     dealer.deckShufle();
     playerAux->fillHand(dealer);
     cout << "\n" << playerAux->getNamePlayer();
+    dealer.fillCommunityCards();
+    for (int i = 0; i < 3; i++) {
+
+        cout << endl;
+        cardCommunity = dealer.getCommunityCards(i);
+        cout << cardCommunity->getNumberCard() << " " << cardCommunity->getColor() << " " << cardCommunity->getSuit();
+    }
 
     increaseBetButton.setShapeSize(60, 60);
     increaseBetButton.setFillColorShape(sf::Color::Black);
@@ -290,12 +298,9 @@ void game() {
     decreaseBetButton.setShapePosition(400, 400);
     decreaseBetButton.setTextPosition(500, 400);
 
-    backgroundGameFile.loadFromFile("Textures/background_game3.png");
-    backgroundGame.setTexture(backgroundGameFile);
-
     sf::Text potText("Pot", font2, 30);
     potText.setFillColor(sf::Color::White);
-    potText.setPosition(600, 106); //colocar en esquina derecha
+    potText.setPosition(600, 106);             // TO DO: colocar en esquina derecha arriba
 
     while (window.isOpen()) {
         loopRefresh();

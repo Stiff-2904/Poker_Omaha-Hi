@@ -5,7 +5,7 @@
 class Player
 {
 private:
-	PokerCard cardsInHand[4];
+	PokerCard* cardsInHand[4];
 	int token;
 	int tokenBet;
 	std::string namePlayer;

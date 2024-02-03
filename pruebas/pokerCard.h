@@ -1,29 +1,30 @@
 #pragma once
 #include <iostream>
+#include "SFML/Graphics.hpp"
 
 using namespace std;
 
 class PokerCard {
 
 private:
-	int numberCard;
-	string color;
-	string suit; //palo
+	int nameValue;
 	bool isGiven;
+	sf::RectangleShape shape;
+	sf::Texture texture;
+
 public:
 	PokerCard();
-	PokerCard(int, string, string);
+	PokerCard(int);
 	~PokerCard();
 
 	int getNumberCard();
 	void setNumberCard(int);
 
-	string getColor();
-	void setColor(string);
-
-	string getSuit();
-	void setSuit(string);
+	void setPosition(sf::Vector2f);
 
 	bool getIsGiven();
-	void setIsGiven(bool);
+	void setIsGiven(bool);	
+
+	void setTexture(std::string);
+	void draMe(sf::RenderWindow);
 };

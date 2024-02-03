@@ -33,7 +33,7 @@ void Player::setNamePlayer(int namePlayer) {
 void Player::fillHand(Dealer& dealer) {
 
 	for (int i = 0; i < 4; i++) {
-		cardsInHand[i] = dealer.getCardHand();
+		cardsInHand[i] = dealer.getCard();
 	}
 }
 
