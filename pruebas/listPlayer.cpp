@@ -31,7 +31,7 @@ void ListPlayer::pushPlayer(Player* player) {
     }
 }
 
-Player* ListPlayer::searchplayer(std::string nameplayer) {
+Player* ListPlayer::searchplayer(std::string nameplayer) {// pober getPlayer
 
     Node* aux = head;
     do {
@@ -44,3 +44,5 @@ Player* ListPlayer::searchplayer(std::string nameplayer) {
 
     return nullptr;
 }
+
+//metodo que inicie en el primero, lo llama y que camine al siguiente 

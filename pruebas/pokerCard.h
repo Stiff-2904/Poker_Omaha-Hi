@@ -8,23 +8,27 @@ class PokerCard {
 
 private:
 	int nameValue;
-	bool isGiven;
 	sf::RectangleShape shape;
-	sf::Texture texture;
-
+	sf::Texture* texture;
+	std::string type;
 public:
 	PokerCard();
-	PokerCard(int);
 	~PokerCard();
+
+	std::string getType();
+	void setType(std::string);
 
 	int getNumberCard();
 	void setNumberCard(int);
-
 	void setPosition(sf::Vector2f);
 
-	bool getIsGiven();
-	void setIsGiven(bool);	
+	void setShapeSize(float, float);
 
-	void setTexture(std::string);
-	void draMe(sf::RenderWindow);
+	//bool getIsGiven();
+	//void setIsGiven(bool);
+
+	sf::RectangleShape getShape();
+	void setPosition(float, float);
+	void setTextureCard(std::string);
+	void drawMe(sf::RenderWindow&);
 };

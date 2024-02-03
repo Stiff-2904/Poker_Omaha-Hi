@@ -1,12 +1,19 @@
 #include "pokerCard.h"
 
-PokerCard::PokerCard() { this->isGiven = false; }
-
-PokerCard::PokerCard(int numberCard) {
-	this->nameValue = numberCard;
+PokerCard::PokerCard() {
+	//this->isGiven = false;
+	this->texture = new sf::Texture();
 }
 
 PokerCard::~PokerCard() {
+}
+
+std::string PokerCard::getType() {
+	return this->type;
+}
+
+void PokerCard::setType(std::string type) {
+	this->type = type;
 }
 
 int PokerCard::getNumberCard() {
@@ -17,24 +24,40 @@ void PokerCard::setNumberCard(int numberCard) {
 	this->nameValue = numberCard;
 }
 
-bool PokerCard::getIsGiven() {
-	return this->isGiven;
+void PokerCard::setShapeSize(float width, float height) {
+		sf::Vector2f size(width, height);
+		this->shape.setSize(size);
 }
 
-void PokerCard::setIsGiven(bool isGiven) {
-	this->isGiven = isGiven;
+//bool PokerCard::getIsGiven() {
+//	return this->isGiven;
+//}
+
+sf::RectangleShape PokerCard::getShape() {
+	return this->shape;
 }
-void setTexture(std::string typeOfCard) {
+
+void PokerCard::setTextureCard(std::string nameTexture) {
+
+	if (texture->loadFromFile(nameTexture)) {
+		shape.setTexture(texture);
+	}
+}
+
+void PokerCard::drawMe(sf::RenderWindow &window) {
+	window.draw(shape);
+}
 
 //TO DO insertar el metodo que esta en Button CardPoker->shape.setTexture();
 
+void PokerCard::setPosition(float x, float y) {
+	sf::Vector2f position(x, y);
+	this->shape.setPosition(position);
 }
 
-void drawMe(sf::RenderWindow window) { 
-//implementar for
-draw.window(this->shape);
 
-}
+
+
 
 // hacer el metodo que toquen la carta HMMMMMMMMMM
 

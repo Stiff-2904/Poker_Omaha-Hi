@@ -2,7 +2,7 @@
 
 Player::Player() {
 	token = 200;
-	tokenBet = 40;
+	tokenBet = 0;
 }
 
 Player::~Player() { }
@@ -13,6 +13,10 @@ void Player::setToken(int token) { this->token = token; }
 
 int Player::getTokenBet() { return this->tokenBet; }
 void Player::setTokenBet(int token) { this->tokenBet = tokenBet; }
+
+std::string Player::getCardsInHand(int positionVector) {
+	return cardsInHand[positionVector];
+}
 
 //PokerCard* getCardsInHand() {
 //	return;

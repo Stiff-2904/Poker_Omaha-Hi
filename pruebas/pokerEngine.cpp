@@ -1,7 +1,4 @@
-#include "button.h"
 #include "pokerEngine.h"
-#include "listPlayer.h"
-#include "player.h"
 
 //variables globales (todo lo que es grafico)
 sf::RenderWindow window(sf::VideoMode(1280, 720), "POKER");
@@ -77,7 +74,6 @@ void startMenu() {
         exitButton.drawMe(window);
         window.display();
 
-        // Event handling to detect button clicks
         if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
             mousePos = sf::Mouse::getPosition(window);
 
@@ -97,7 +93,6 @@ void startMenu() {
 }
 
 void aboutWindow() {
-
 	backgroundMenuFile.loadFromFile("Textures/background_black1.png");
 	backgroundPlayersFile.loadFromFile("Textures/background_players.png");
 	backgroundMenu.setTexture(backgroundMenuFile);
@@ -140,6 +135,7 @@ void aboutWindow() {
 
 			if (menuButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
 				startMenu();
+				loopRefresh();
 			}
 			else if (exitButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
 				window.close();
@@ -228,27 +224,22 @@ void numOfPlayers() {
                 window.close();
             }
             if (button2.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
-                //agregar una lista circular con 2 players
                 sizePlayers = 2;
                 game();
             }
 			if (button3.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
-				//agregar una lista circular con 3 players
                 sizePlayers = 3;
 				game();
 			}
 			if (button4.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
-				//agregar una lista circular con 4 players
                 sizePlayers = 4;
 				game();
 			}
 			if (button5.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
-				//agregar una lista circular con 5 players
                 sizePlayers = 4;
 				game();
 			}
 			if (button6.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
-				//agregar una lista circular con 6 players
                 sizePlayers = 6;
 				game(); 
 			}
@@ -258,53 +249,92 @@ void numOfPlayers() {
 
 void game() {
 
-    backgroundGameFile.loadFromFile("Textures/background_game3.png");
-    backgroundGame.setTexture(backgroundGameFile);
-    Button increaseBetButton, decreaseBetButton;
-    ListPlayer listOfPlayers(sizePlayers);
+    int sizeCardsInHand = 4;
+	ListPlayer listPlayer(sizePlayers);
     Player* playerAux;
     Dealer dealer;
-    PokerCard* cardCommunity;
+    backgroundGameFile.loadFromFile("Textures/background_game3.png");
+    backgroundGame.setTexture(backgroundGameFile);
+    Button increaseBetButton, decreaseBetButton, nextButton, leaveButton, enterButton;
+    PokerCard card1, card2, card3, card4;
+    std::string cards;
+    //PokerCard cardComu1, cardComu2, cardComu3, cardComu4, cardComu5;
 
-    playerAux = listOfPlayers.searchplayer("Player 1");        // TEXURE(std:: string)  {this->texture = new...}      for(....) { PokerCard[i].setTexture(cardsInHand[i])}
+    card1.setPosition(135, 450);    //TO DO: poner bien las cartas
+    card2.setPosition(390, 450);
+    card3.setPosition(645, 450);
+    card4.setPosition(900, 450);
+    playerAux = listPlayer.searchplayer("Player 1");
+//    int positionInListPLayer = 1;
 
-    dealer.fillDeck();
+ //   if (positionInListPLayer == 1) {
+ //       playerAux = listPlayer.searchplayer("Player 1");
+ //   }
+	//if (positionInListPLayer == 2) {
+	//	playerAux = listPlayer.searchplayer("Player 2");
+	//}
+	//if (positionInListPLayer == 3) {
+	//	playerAux = listPlayer.searchplayer("Player 3");
+	//}
+	//if (positionInListPLayer == 4) {
+	//	playerAux = listPlayer.searchplayer("Player 4");   //TO DO: get player seria mejor?
+	//}
+	//if (positionInListPLayer == 5) {
+	//	playerAux = listPlayer.searchplayer("Player 5");
+	//}
+	//if (positionInListPLayer == 6) {
+ //       playerAux = listPlayer.searchplayer("Player 6");
+	//}
+
     dealer.deckShufle();
     playerAux->fillHand(dealer);
-    cout << "\n" << playerAux->getNamePlayer();
-    dealer.fillCommunityCards();
-    for (int i = 0; i < 3; i++) {
+    int i = 0;
+    cards = playerAux->getCardsInHand(i);
+    card1.setTextureCard(cards);
 
-        cout << endl;
-        cardCommunity = dealer.getCommunityCards(i);
-        cout << cardCommunity->getNumberCard() << " " << cardCommunity->getColor() << " " << cardCommunity->getSuit();
-    }
+    cards = playerAux->getCardsInHand(i + 1);
+    card2.setTextureCard(cards);
 
-    increaseBetButton.setShapeSize(60, 60);
+    cards = playerAux->getCardsInHand(i + 2);
+    card3.setTextureCard(cards);
+
+    cards = playerAux->getCardsInHand(i + 3);
+    card4.setTextureCard(cards);
+
+    card1.setShapeSize(200, 600);
+	card2.setShapeSize(200, 600);
+    card3.setShapeSize(200, 600);
+    card4.setShapeSize(200, 600);
+
+    increaseBetButton.setShapeSize(100, 60);
     increaseBetButton.setFillColorShape(sf::Color::Black);
     increaseBetButton.setText("-10");
     increaseBetButton.addFillColorText(sf::Color::White);
     increaseBetButton.addFontText(font2);
-    increaseBetButton.addLetterSize(62);
-    increaseBetButton.setShapePosition(500, 350);
-    increaseBetButton.setTextPosition(500, 305);
+    increaseBetButton.addLetterSize(45);
+    increaseBetButton.setShapePosition(50, 300);
+    increaseBetButton.setTextPosition(57, 303);
 
-    decreaseBetButton.setShapeSize(60, 60);
+    decreaseBetButton.setShapeSize(100, 60);
     decreaseBetButton.setFillColorShape(sf::Color::White);
     decreaseBetButton.setText("+10");
     decreaseBetButton.addFillColorText(sf::Color::Black);
     decreaseBetButton.addFontText(font2);
-    decreaseBetButton.addLetterSize(62);
-    decreaseBetButton.setShapePosition(400, 400);
-    decreaseBetButton.setTextPosition(500, 400);
+    decreaseBetButton.addLetterSize(45);
+    decreaseBetButton.setShapePosition(50, 200);
+    decreaseBetButton.setTextPosition(57, 303);
 
-    sf::Text potText("Pot", font2, 30);
+    sf::Text potText("Pot", font1, 30);
     potText.setFillColor(sf::Color::White);
-    potText.setPosition(600, 106);             // TO DO: colocar en esquina derecha arriba
+    potText.setPosition(1180, 10);             // TO DO: colocar en esquina derecha arriba
 
     while (window.isOpen()) {
         loopRefresh();
         window.draw(backgroundGame);
+        card1.drawMe(window);
+        card2.drawMe(window);
+        card3.drawMe(window);
+		card4.drawMe(window);
         increaseBetButton.drawMe(window);
         decreaseBetButton.drawMe(window);
         window.draw(potText);
@@ -315,13 +345,17 @@ void game() {
 
             if (increaseBetButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
 
+				//quePlayervaaqui?.setTokenBet(+10);
                 //Aumentar apuesta (hacer que el Pot aumente y ek token del jugador disminuya)
-
             }
             if (increaseBetButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
-
-                //disminuir apuesta (hacer que el Pot aumente y ek token del jugador disminuya)
-
+               /* if(quePlayervaaqui?.getTokenBet() !=0){
+                    quePlayervaaqui?.setTokenBet(-10);
+                 }
+			    quePlayervaaqui?.setTokenBet(+10);         
+                disminuir apuesta (hacer que el Pot aumente y ek token del jugador disminuya)
+				   sf::Text potText;  potText.setString(std::to_string(getPot()));
+                */
             }
         }
     }
