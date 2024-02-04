@@ -11,7 +11,9 @@ public:
 	ListPlayer();
 	~ListPlayer();
 
+	Node* getHead();
+
 	void pushPlayer(Player*);
 	Player* searchplayer(std::string);
-	Player* printPlayer(std::string);
+	Player* getPlayerInNextPosition(Node*);
 };

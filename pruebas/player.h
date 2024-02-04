@@ -7,7 +7,6 @@ class Player
 private:
 	std::string cardsInHand[4];
 	int token;
-	int tokenBet;
 	std::string namePlayer;
 	bool isPlaying;
 	//int winnings;
@@ -18,15 +17,10 @@ public:
 	int getToken();
 	void setToken(int);
 
-	int getTokenBet();
-	void setTokenBet(int);
+	bool getIsPlaying();
+	void setIsPlaying(bool);
 
 	std::string getCardsInHand(int);
-
-	//PokerCard* getCardsInHand();
-
-	/*int getWinnings();
-	void setWinnings(int);*/
 
 	std::string getNamePlayer();
 	void setNamePlayer(int);
@@ -34,7 +28,6 @@ public:
 	void fillHand(Dealer&);
 
 	void betManagement(Dealer&);
-	void printBetManagement(Dealer&);
 };
 
 //PokerCards** getCardsInHand() {return cardsInHand; }

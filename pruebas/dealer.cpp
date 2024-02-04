@@ -7,16 +7,14 @@ Dealer::Dealer() {
 Dealer::~Dealer() {
 }
 
-int Dealer::getPot() { return this->pot; }
-void Dealer::setPot(int pot) { this->pot = pot; }
+int Dealer::getPot() { 
+	return this->pot;
+}
 
-//bool Dealer::getIsGiven() {
-//	return this->isGiven;
-//}
-//
-//void Dealer::setIsGiven(bool isGiven) {
-//	this->isGiven;
-//}
+void Dealer::setPot(int pot) {
+	this->pot += pot; 
+}
+
 
 std::string Dealer::getCard() {
 	for (int i = 0; i < 52; i++) {
@@ -48,12 +46,9 @@ void Dealer::fillCommunityCards(){
 	}
 }
 
-//PokerCard* Dealer::getCommunityCards(int positionCommunityCards) {
-//	for (int i = positionCommunityCards; i < 5; i++) { 
-//		return communityCards[i];
-//	}
-//	return nullptr;
-//}
+std::string Dealer::getCommunityCards(int position) {
+	return communityCards[position];
+}
 
 int Dealer::reviewRoyalFlush() {
 	return 0;

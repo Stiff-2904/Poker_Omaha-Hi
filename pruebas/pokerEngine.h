@@ -10,6 +10,7 @@
 
 
 void loopRefresh();
+//void handleMouseClick( sf::Event&, sf::Text&, sf::Text&, sf::Text&);
 void startMenu();
 void aboutWindow();
 void numOfPlayers();

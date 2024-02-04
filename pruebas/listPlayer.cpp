@@ -13,6 +13,11 @@ ListPlayer::ListPlayer(){}
 
 ListPlayer::~ListPlayer() {}
 
+Node* ListPlayer::getHead()
+{
+    return this->head;
+}
+
 void ListPlayer::pushPlayer(Player* player) {
     Node* newNode = new Node(player);
 
@@ -45,4 +50,11 @@ Player* ListPlayer::searchplayer(std::string nameplayer) {// pober getPlayer
     return nullptr;
 }
 
-//metodo que inicie en el primero, lo llama y que camine al siguiente 
+Player* ListPlayer::getPlayerInNextPosition(Node* currentNode) {
+    if (currentNode != nullptr && currentNode->getNext() != nullptr) {
+        return currentNode->getNext()->getPlayer();
+    }
+    else {
+        return nullptr;
+    }
+}

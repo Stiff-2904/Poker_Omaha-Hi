@@ -5,9 +5,9 @@ sf::RenderWindow window(sf::VideoMode(1280, 720), "POKER");
 //Las del menu
 sf::Texture backgroundMenuFile, backgroundPlayersFile, backgroundGameFile, buttonFile, betButtonFile;
 //imagenes para las texturas y mas cosas
-sf::Sprite backgroundMenu, backgroundPlayer, backgroundGame, button, betButton, card;
+sf::Sprite backgroundMenu, backgroundPlayer, backgroundGame, button, betButton;
 //Fuentes de texto
-sf::Font font1, font2;
+sf::Font font1, font2, font3;
 //posicion del mouse
 sf::Vector2i mousePos;
 //evento loop para el juego
@@ -18,6 +18,8 @@ int turn, winnerPlayer = 0;
 Button playButton, aboutButton, exitButton;
 //num of players
 int sizePlayers = 0;
+
+//cosas del game();
 
 //cerrar la ventana (refrescar)
 void loopRefresh() {
@@ -61,8 +63,6 @@ void startMenu() {
     exitButton.addFontText(font1);
     exitButton.setShapePosition((1280 - exitButton.getSize().x) / 2, 500);
     exitButton.setTextPosition((1280 - exitButton.getSize().x) / 2, 500);
-
-    // window.setFramerateLimit(24); 
 
     while (window.isOpen()) {
         loopRefresh();
@@ -249,114 +249,242 @@ void numOfPlayers() {
 
 void game() {
 
-    int sizeCardsInHand = 4;
+	int betAmount = 0;
+	int sizeCardsInHand = 4;
 	ListPlayer listPlayer(sizePlayers);
-    Player* playerAux;
-    Dealer dealer;
-    backgroundGameFile.loadFromFile("Textures/background_game3.png");
-    backgroundGame.setTexture(backgroundGameFile);
-    Button increaseBetButton, decreaseBetButton, nextButton, leaveButton, enterButton;
-    PokerCard card1, card2, card3, card4;
-    std::string cards;
-    //PokerCard cardComu1, cardComu2, cardComu3, cardComu4, cardComu5;
+	Player* playerAux;
+	Dealer dealer;
+	Button increaseBetButton, decreaseBetButton, nextButton, leaveButton, enterButton;
+	PokerCard card1, card2, card3, card4;
+	Node* node = listPlayer.getHead();
+	std::string card, cardCommu, player1 = { "Player 1" }, player2{ "Player 2" }, player3{ "Player 3" }, player4{ "Player 4" }, player5{ "Player 5" };
+	PokerCard cardComu1, cardComu2, cardComu3, cardComu4, cardComu5;
 
-    card1.setPosition(135, 450);    //TO DO: poner bien las cartas
-    card2.setPosition(390, 450);
-    card3.setPosition(645, 450);
-    card4.setPosition(900, 450);
-    playerAux = listPlayer.searchplayer("Player 1");
-//    int positionInListPLayer = 1;
+	font3.loadFromFile("Fonts/limon_font3.otf");
+	backgroundGameFile.loadFromFile("Textures/background_game3.png");
+	backgroundGame.setTexture(backgroundGameFile);
 
- //   if (positionInListPLayer == 1) {
- //       playerAux = listPlayer.searchplayer("Player 1");
- //   }
-	//if (positionInListPLayer == 2) {
-	//	playerAux = listPlayer.searchplayer("Player 2");
-	//}
-	//if (positionInListPLayer == 3) {
-	//	playerAux = listPlayer.searchplayer("Player 3");
-	//}
-	//if (positionInListPLayer == 4) {
-	//	playerAux = listPlayer.searchplayer("Player 4");   //TO DO: get player seria mejor?
-	//}
-	//if (positionInListPLayer == 5) {
-	//	playerAux = listPlayer.searchplayer("Player 5");
-	//}
-	//if (positionInListPLayer == 6) {
- //       playerAux = listPlayer.searchplayer("Player 6");
-	//}
+	card1.setPosition(135, 450);    //TO DO: poner bien las cartas
+	card2.setPosition(390, 450);
+	card3.setPosition(645, 450);
+	card4.setPosition(900, 450);
+	playerAux = listPlayer.searchplayer(player1);
+	//    int positionInListPLayer = 1;
 
-    dealer.deckShufle();
-    playerAux->fillHand(dealer);
-    int i = 0;
-    cards = playerAux->getCardsInHand(i);
-    card1.setTextureCard(cards);
+	 //   if (positionInListPLayer == 1) {
+	 //       playerAux = listPlayer.searchplayer("Player 1");
+	 //   }
+		//if (positionInListPLayer == 2) {
+		//	playerAux = listPlayer.searchplayer("Player 2");
+		//}
+		//if (positionInListPLayer == 3) {
+		//	playerAux = listPlayer.searchplayer("Player 3");
+		//}
+		//if (positionInListPLayer == 4) {
+		//	playerAux = listPlayer.searchplayer("Player 4");   //TO DO: get player seria mejor?
+		//}
+		//if (positionInListPLayer == 5) {
+		//	playerAux = listPlayer.searchplayer("Player 5");
+		//}
+		//if (positionInListPLayer == 6) {
+	 //       playerAux = listPlayer.searchplayer("Player 6");
+		//}
 
-    cards = playerAux->getCardsInHand(i + 1);
-    card2.setTextureCard(cards);
+	//cartas de jugadores XD es para  hacer una division
 
-    cards = playerAux->getCardsInHand(i + 2);
-    card3.setTextureCard(cards);
+	dealer.deckShufle();
+	playerAux->fillHand(dealer);
+	int i = 0;
+	card = playerAux->getCardsInHand(i);
+	card1.setTextureCard(card);
 
-    cards = playerAux->getCardsInHand(i + 3);
-    card4.setTextureCard(cards);
+	card = playerAux->getCardsInHand(i + 1);
+	card2.setTextureCard(card);
 
-    card1.setShapeSize(200, 600);
+	card = playerAux->getCardsInHand(i + 2);
+	card3.setTextureCard(card);
+
+	card = playerAux->getCardsInHand(i + 3);
+	card4.setTextureCard(card);
+
+	card1.setShapeSize(200, 600);
 	card2.setShapeSize(200, 600);
-    card3.setShapeSize(200, 600);
-    card4.setShapeSize(200, 600);
+	card3.setShapeSize(200, 600);
+	card4.setShapeSize(200, 600);
 
-    increaseBetButton.setShapeSize(100, 60);
-    increaseBetButton.setFillColorShape(sf::Color::Black);
-    increaseBetButton.setText("-10");
-    increaseBetButton.addFillColorText(sf::Color::White);
-    increaseBetButton.addFontText(font2);
-    increaseBetButton.addLetterSize(45);
-    increaseBetButton.setShapePosition(50, 300);
-    increaseBetButton.setTextPosition(72, 310);
+	//cartas cominitarias
+	dealer.fillCommunityCards();
+	int positionCardCommun = 0;
+	cardCommu = dealer.getCommunityCards(positionCardCommun);
+	cardComu1.setTextureCard(cardCommu);
 
-    decreaseBetButton.setShapeSize(100, 60);
-    decreaseBetButton.setFillColorShape(sf::Color::White);
-    decreaseBetButton.setText("+10");
-    decreaseBetButton.addFillColorText(sf::Color::Black);
-    decreaseBetButton.addFontText(font2);
-    decreaseBetButton.addLetterSize(45);
-    decreaseBetButton.setShapePosition(50, 200);
-    decreaseBetButton.setTextPosition(72, 210);
+	cardCommu = dealer.getCommunityCards(positionCardCommun + 1);
+	cardComu2.setTextureCard(cardCommu);
 
-    sf::Text potText("Pot", font1, 30);
-    potText.setFillColor(sf::Color::White);
-    potText.setPosition(1180, 10);             // TO DO: colocar en esquina derecha arriba
+	cardCommu = dealer.getCommunityCards(positionCardCommun + 2);
+	cardComu3.setTextureCard(cardCommu);
 
-    while (window.isOpen()) {
-        loopRefresh();
-        window.draw(backgroundGame);
-        card1.drawMe(window);
-        card2.drawMe(window);
-        card3.drawMe(window);
+	cardCommu = dealer.getCommunityCards(positionCardCommun + 3);
+	cardComu4.setTextureCard(cardCommu);
+
+	cardCommu = dealer.getCommunityCards(positionCardCommun + 4);
+	cardComu5.setTextureCard(cardCommu);
+
+	cardComu1.setShapeSize(140, 190);
+	cardComu2.setShapeSize(140, 190);
+	cardComu3.setShapeSize(140, 190);
+	cardComu4.setShapeSize(140, 190);
+	cardComu5.setShapeSize(140, 190);
+
+	cardComu1.setPosition(200, 150);
+	cardComu2.setPosition(350, 150);
+	cardComu3.setPosition(500, 150);
+	cardComu4.setPosition(650, 150);
+	cardComu5.setPosition(800, 150);
+
+	decreaseBetButton.setShapeSize(90, 60);
+	decreaseBetButton.setFillColorShape(sf::Color::White);
+	decreaseBetButton.setText("+10");
+	decreaseBetButton.addFillColorText(sf::Color::Black);
+	decreaseBetButton.addFontText(font3);
+	decreaseBetButton.addLetterSize(35);
+	decreaseBetButton.setShapePosition(30, 250);
+	decreaseBetButton.setTextPosition(30, 250);
+
+	increaseBetButton.setShapeSize(90, 60);
+	increaseBetButton.setFillColorShape(sf::Color::Black);
+	increaseBetButton.setText("-10");
+	increaseBetButton.addFillColorText(sf::Color::White);
+	increaseBetButton.addFontText(font3);
+	increaseBetButton.addLetterSize(35);
+	increaseBetButton.setShapePosition(30, 350);
+	increaseBetButton.setTextPosition(30, 350);
+
+	sf::Text token("Token:", font1, 30);
+	token.setFillColor(sf::Color::White);
+	token.setPosition(100, 10);
+
+	sf::Text potText("Pot:", font1, 30);
+	potText.setFillColor(sf::Color::White);
+	potText.setPosition(1180, 10);             // TO DO: colocar en esquina derecha arriba
+
+	sf::Text namePlayerText("Aqui va el nombre", font1, 100);
+	namePlayerText.setFillColor(sf::Color::White);
+	namePlayerText.setPosition(1100, 10);
+
+	nextButton.setShapeSize(100, 60);
+	nextButton.setFillColorShape(sf::Color::White);
+	nextButton.setText("NEXT");
+	nextButton.addFillColorText(sf::Color::Black);
+	nextButton.addFontText(font3);
+	nextButton.addLetterSize(20);
+	nextButton.setShapePosition(1150, 250);
+	nextButton.setTextPosition(1150, 250);
+
+	leaveButton.setShapeSize(100, 60);
+	leaveButton.setFillColorShape(sf::Color::White);
+	leaveButton.setText("LEAVE");
+	leaveButton.addFillColorText(sf::Color::Black);
+	leaveButton.addFontText(font3);
+	leaveButton.addLetterSize(20);
+	leaveButton.setShapePosition(1150, 350);
+	leaveButton.setTextPosition(1150, 350);
+
+
+	while (window.isOpen()) {
+		loopRefresh();
+		window.draw(backgroundGame);
+		card1.drawMe(window);
+		card2.drawMe(window);
+		card3.drawMe(window);
 		card4.drawMe(window);
-        increaseBetButton.drawMe(window);
-        decreaseBetButton.drawMe(window);
-        window.draw(potText);
-        window.display();
 
-        if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
-            mousePos = sf::Mouse::getPosition(window);
+		cardComu1.drawMe(window);
+		cardComu2.drawMe(window);
+		cardComu3.drawMe(window);
+		cardComu4.drawMe(window);
+		cardComu5.drawMe(window);
 
-            if (increaseBetButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
+		nextButton.drawMe(window);
+		leaveButton.drawMe(window);
+		increaseBetButton.drawMe(window);
+		decreaseBetButton.drawMe(window);
+		window.draw(token);
+		window.draw(potText);
+		window.display();
 
-				//quePlayervaaqui?.setTokenBet(+10);
-                //Aumentar apuesta (hacer que el Pot aumente y ek token del jugador disminuya)
-            }
-            if (increaseBetButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
-               /* if(quePlayervaaqui?.getTokenBet() !=0){
-                    quePlayervaaqui?.setTokenBet(-10);
-                 }
-			    quePlayervaaqui?.setTokenBet(+10);         
-                disminuir apuesta (hacer que el Pot aumente y ek token del jugador disminuya)
+		if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
+			mousePos = sf::Mouse::getPosition(window);
+			if (nextButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
+
+				playerAux = listPlayer.getPlayerInNextPosition(node);
+
+				// Update UI with the new player's name and token
+				namePlayerText.setString(playerAux->getNamePlayer());
+				token.setString("Token: " + std::to_string(playerAux->getToken()));
+
+				window.draw(token);           // Draw the updated token
+				window.draw(potText);
+				window.draw(namePlayerText);  // Draw the updated player name
+
+				window.display();
+
+			}
+		}
+			if (leaveButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
+
+				//TO DO: el jugador se sale mientras espera el otro turno
+
+			}
+			if (increaseBetButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
+
+				//playerAux->setTokenBet(playerAuc->getTokenbet() + 10);
+				//Aumentar apuesta (hacer que el Pot aumente y ek token del jugador disminuya)
+			}
+			if (decreaseBetButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
+
+				playerAux->betManagement(dealer);
+				potText.setString("Pot: " + std::to_string(dealer.getPot()));
+				token.setString("Token: " + std::to_string(playerAux->getToken()));
+				window.draw(potText);  // Asegúrate de volver a dibujar el texto del pot modificado
+				window.draw(token);
+				window.display();
+
+				//namePlayerText.setString(std::to_string(pot)); probar
+
+				 /* if(quePlayervaaqui?.getTokenBet() >0){
+					playerAux->setTokenBet(quePlayervaaqui->getTokenBet() - 10);
+				 }
+				quePlayervaaqui?.setTokenBet(+10);
+				disminuir apuesta (hacer que el Pot aumente y ek token del jugador disminuya)
 				   sf::Text potText;  potText.setString(std::to_string(getPot()));
-                */
-            }
-        }
-    }
+				*/
+			}
+		
+	}
 }
+
+//void handleMouseClick(sf::Event& event, sf::Text& token, sf::Text& potText, sf::Text& namePlayerText) {
+//  if (event.type == sf::Event::MouseButtonPressed) {
+//		int mouseX = event.mouseButton.x;
+//		int mouseY = event.mouseButton.y;
+//	if (nextButton.getShape().getGlobalBounds().contains(mouseX, mouseY)) {
+//		// Lógica para el botón "NEXT"
+//		playerAux = listPlayer.getPlayerInNextPosition(node);
+//		namePlayerText.setString(playerAux->getNamePlayer());
+//		token.setString("Token: " + std::to_string(playerAux->getToken()));
+//	}
+//	else if (leaveButton.getShape().getGlobalBounds().contains(mouseX, mouseY)) {
+//		// Lógica para el botón "LEAVE"
+//		// ...
+//	}
+//	else if (increaseBetButton.getShape().getGlobalBounds().contains(mouseX, mouseY)) {
+//		// Lógica para el botón de aumentar la apuesta
+//		// ...
+//	}
+//	else if (decreaseBetButton.getShape().getGlobalBounds().contains(mouseX, mouseY)) {
+//		// Lógica para el botón de disminuir la apuesta
+//		// ...
+//	}
+//  }
+//}

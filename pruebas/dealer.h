@@ -7,7 +7,7 @@
 class Dealer {
 
 private:
-	std::string arrayCards[52] = {  "Textures/1heart.png", "Textures/2heart.png", "Textures/3heart.png", "Textures/4heart.png", "TexturesTextures/5heart.png",
+	std::string arrayCards[52] = {  "Textures/1heart.png", "Textures/2heart.png", "Textures/3heart.png", "Textures/4heart.png", "Textures/5heart.png",
 		                            "Textures/6heart.png", "Textures/7heart.png", "Textures/8heart.png", "Textures/9heart.png", "Textures/10heart.png",
 		                            "Textures/11heart.png", "Textures/12heart.png", "Textures/13heart.png",
 							     	"Textures/1diamond.png", "Textures/2diamond.png", "Textures/3diamond.png", "Textures/4diamond.png", "Textures/5diamond.png",
@@ -30,9 +30,6 @@ public:
 	int getPot();
 	void setPot(int);
 
-	bool getIsGiven();
-	void setIsGiven(bool);
-
 	std::string getCard(); //retorna una carta y se elimina de la baraja / manda el puntero de una carta
 
 	void deckShufle();
@@ -40,7 +37,7 @@ public:
 	bool checkingToken(int);// revisar si el jugador tiene suficiente plata para seguir jugando
 
 	void fillCommunityCards();
-	PokerCard* getCommunityCards(int);
+	std::string getCommunityCards(int);
 
 
 

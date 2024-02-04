@@ -2,7 +2,6 @@
 
 Player::Player() {
 	token = 200;
-	tokenBet = 0;
 }
 
 Player::~Player() { }
@@ -11,8 +10,13 @@ Player::~Player() { }
 int Player::getToken() { return this->token; }
 void Player::setToken(int token) { this->token = token; }
 
-int Player::getTokenBet() { return this->tokenBet; }
-void Player::setTokenBet(int token) { this->tokenBet = tokenBet; }
+bool Player::getIsPlaying() {
+	return this->isPlaying;
+}
+
+void Player::setIsPlaying(bool isPlaying) {
+	this->isPlaying = isPlaying;
+}
 
 std::string Player::getCardsInHand(int positionVector) {
 	return cardsInHand[positionVector];
@@ -42,10 +46,9 @@ void Player::fillHand(Dealer& dealer) {
 }
 
 void Player::betManagement(Dealer& dealer) {
-	int TokenToBet = getTokenBet();
-	if (getTokenBet() >= dealer.getPot()) {
-		setToken(getToken() - TokenToBet);
-		dealer.setPot(TokenToBet + dealer.getPot());
-		setTokenBet(100);
+	int betAmount = 10;
+	if (betAmount <= getToken()) {
+		setToken(getToken() - betAmount);
+		dealer.setPot(betAmount);
 	}
 }
