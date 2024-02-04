@@ -313,7 +313,7 @@ void game() {
     increaseBetButton.addFontText(font2);
     increaseBetButton.addLetterSize(45);
     increaseBetButton.setShapePosition(50, 300);
-    increaseBetButton.setTextPosition(57, 303);
+    increaseBetButton.setTextPosition(72, 310);
 
     decreaseBetButton.setShapeSize(100, 60);
     decreaseBetButton.setFillColorShape(sf::Color::White);
@@ -322,7 +322,7 @@ void game() {
     decreaseBetButton.addFontText(font2);
     decreaseBetButton.addLetterSize(45);
     decreaseBetButton.setShapePosition(50, 200);
-    decreaseBetButton.setTextPosition(57, 303);
+    decreaseBetButton.setTextPosition(72, 210);
 
     sf::Text potText("Pot", font1, 30);
     potText.setFillColor(sf::Color::White);

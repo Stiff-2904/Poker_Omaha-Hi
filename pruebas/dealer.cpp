@@ -18,15 +18,16 @@ void Dealer::setPot(int pot) { this->pot = pot; }
 //	this->isGiven;
 //}
 
-std::string Dealer::getCard() {// arreglar esto
-
+std::string Dealer::getCard() {
 	for (int i = 0; i < 52; i++) {
-		return arrayCards[i];
-		/*if (!getIsGiven()) {
-			setIsGiven(true);
-		}*/
+		if (!isCardGiven[i]) {
+			isCardGiven[i] = true;
+			return arrayCards[i];
+		}
 	}
+	return "";
 }
+
 
 
 void Dealer::deckShufle() {//srind(NULL); en el main se puede

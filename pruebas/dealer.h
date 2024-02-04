@@ -20,7 +20,7 @@ private:
 									"Textures/6spades.png", "Textures/7spades.png", "Textures/8spades.png", "Textures/9spades.png", "Textures/10spades.png",
 									"Textures/11spades.png", "Textures/12spades.png", "Textures/13spades.png",
 	};
-	//bool isGiven; preguntar esto
+	bool isCardGiven[52] = { false };
 	int pot;
 	std::string communityCards[5];
 public:
