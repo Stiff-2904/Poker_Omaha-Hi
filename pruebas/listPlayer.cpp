@@ -9,12 +9,11 @@ ListPlayer::ListPlayer(int sizeOfPlayers) {
     }
 }
 
-ListPlayer::ListPlayer(){}
+ListPlayer::ListPlayer() {}
 
 ListPlayer::~ListPlayer() {}
 
-Node* ListPlayer::getHead()
-{
+Node* ListPlayer::getHead() {
     return this->head;
 }
 
@@ -36,7 +35,7 @@ void ListPlayer::pushPlayer(Player* player) {
     }
 }
 
-Player* ListPlayer::searchplayer(std::string nameplayer) {// pober getPlayer
+Player* ListPlayer::searchplayer(std::string nameplayer) {
 
     Node* aux = head;
     do {
@@ -46,15 +45,15 @@ Player* ListPlayer::searchplayer(std::string nameplayer) {// pober getPlayer
         aux = aux->getNext();
     } while (aux != head);
 
-
     return nullptr;
 }
 
-Player* ListPlayer::getPlayerInNextPosition(Node* currentNode) {
-    if (currentNode != nullptr && currentNode->getNext() != nullptr) {
-        return currentNode->getNext()->getPlayer();
-    }
-    else {
-        return nullptr;
+void ListPlayer::fillAllHandsOfPlayers(Dealer& dealer, int sizeOfPlayers) {
+    Node* currentNode = head;
+    for (int i = 0; i < sizeOfPlayers; i++) {
+        if (currentNode != nullptr) {
+            currentNode->getPlayer()->fillHand(dealer);
+            currentNode = currentNode->getNext();
+        }
     }
 }

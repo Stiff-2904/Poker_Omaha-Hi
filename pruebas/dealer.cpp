@@ -12,7 +12,7 @@ int Dealer::getPot() {
 }
 
 void Dealer::setPot(int pot) {
-	this->pot += pot; 
+	this->pot = pot; 
 }
 
 
@@ -28,7 +28,7 @@ std::string Dealer::getCard() {
 
 
 
-void Dealer::deckShufle() {//srind(NULL); en el main se puede
+void Dealer::deckShufle() {
 
 	int iter, randomPos;
 

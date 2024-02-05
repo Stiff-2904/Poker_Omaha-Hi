@@ -1,7 +1,6 @@
 #include "pokerCard.h"
 
 PokerCard::PokerCard() {
-	//this->isGiven = false;
 	this->texture = new sf::Texture();
 }
 
