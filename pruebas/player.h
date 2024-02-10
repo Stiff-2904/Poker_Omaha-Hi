@@ -4,11 +4,12 @@
 
 class Player {
 private:
-	std::string cardsInHand[4];
+	PokerCard cardsInHand[4];
 	int token;
 	std::string namePlayer = "";
 	bool isPlaying = true;
-	bool isbet;
+	bool isbet = false;
+	int currentBet;
 public:
 	Player();
 	~Player();
@@ -22,7 +23,13 @@ public:
 	bool getIsBet();
 	void setIsBet(bool);
 
-	std::string getCardsInHand(int);
+	int getCurrentBet();
+	void setCurrentBet(int);
+
+	void increaseCurrentBet(int);
+	void decreaseCurrentBet(int);
+
+	PokerCard getCardsInHand(int);
 
 	std::string getNamePlayer();
 	void setNamePlayer(int);
@@ -30,6 +37,5 @@ public:
 	void fillHand(Dealer&);
 
 	void betIncrease(Dealer&);
-	void betDecrease(Dealer&);
-	//void Allin(Dealer&);
+	//void betDecrease(Dealer&);
 };

@@ -16,27 +16,49 @@ void Dealer::setPot(int pot) {
 }
 
 
-std::string Dealer::getCard() {
-	for (int i = 0; i < 52; i++) {
-		if (!isCardGiven[i]) {
-			isCardGiven[i] = true;
-			return arrayCards[i];
+void Dealer::fillDeck() {
+	
+	string colors[2] = { "red", "black" };
+	string suits[4] = { "heart", "diamond", "spades", "clover" };
+
+	int iterSuit, iterNumber, cardCounter = 0;
+
+	for (iterSuit = 0; iterSuit < 4; iterSuit++) {
+
+		for (iterNumber = 1; iterNumber <= 13; iterNumber++) {// 1 a 13 
+
+			if (iterSuit < 2) {
+				PokerCard card(iterNumber, suits[iterSuit], colors[0]);
+				arrayCards[cardCounter] = card;
+			}
+			else {
+				PokerCard card(iterNumber, suits[iterSuit], colors[1]);
+				arrayCards[cardCounter] = card;
+			}
+			cardCounter++;
 		}
 	}
-	return "";
 }
-
-
 
 void Dealer::deckShufle() {
 
 	int iter, randomPos;
 
 	for (iter = 0; iter < 52; iter++) {
-		string saveCard = arrayCards[iter];
+		PokerCard saveCard = arrayCards[iter];
 		randomPos = rand() % (52);
 		arrayCards[iter] = arrayCards[randomPos];
 		arrayCards[randomPos] = saveCard;
+	}
+}
+
+PokerCard Dealer::getCard() {
+	int i;
+	for (i = 0; i < 52; i++) {
+		if (!arrayCards[i].getIsGiven()) {// false // true
+			arrayCards[i].setIsGiven(true);
+			return arrayCards[i];
+		}
 	}
 }
 
@@ -46,7 +68,7 @@ void Dealer::fillCommunityCards(){
 	}
 }
 
-std::string Dealer::getCommunityCards(int position) {
+PokerCard Dealer::getCommunityCards(int position) {
 	return communityCards[position];
 }
 

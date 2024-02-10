@@ -2,12 +2,13 @@
 
 Player::Player() {
 	token = 100;
+	currentBet = 0;
 }
 
 Player::~Player() { }
 
 int Player::getToken() { 
-	return this->token; 
+	return this->token;
 }
 
 void Player::setToken(int token) { 
@@ -29,7 +30,30 @@ bool Player::getIsBet() {
 void Player::setIsBet(bool isBet) {
 	this->isbet = isBet;
 }
-std::string Player::getCardsInHand(int positionVector) {
+
+int Player::getCurrentBet() {
+	return this->currentBet;
+}
+
+void Player::setCurrentBet(int value ) {
+	this->currentBet = value;
+}
+
+void Player::increaseCurrentBet(int betValue) {
+	if (getToken() >= 10) {
+		this->currentBet += betValue;
+		setToken(getToken() - betValue);
+	}
+}
+
+void Player::decreaseCurrentBet(int betValue) {
+	if (getCurrentBet() >= 10) {
+		this->currentBet -= betValue;
+		setToken(getToken() + betValue);
+	}
+}
+
+PokerCard Player::getCardsInHand(int positionVector) {
 	return cardsInHand[positionVector];
 }
 
@@ -49,20 +73,14 @@ void Player::fillHand(Dealer& dealer) {
 	}
 }
 
-void Player::betIncrease(Dealer& dealer) {
-	int betAmount = 10;
-	if (betAmount <= getToken()) {
-		if (getToken() > 0) {
-		setToken(getToken() - betAmount);
-		dealer.setPot(dealer.getPot() + betAmount);
-		}
-	}
+void Player::betIncrease(Dealer& dealer) {//, int currentBet
+	dealer.setPot(dealer.getPot() + currentBet);
 }
 
-void Player::betDecrease(Dealer& dealer) {
-	int betAmount = 10;
-	if ( getToken() < 100 && getToken() >= 0) {
-		setToken(getToken() + betAmount);
-		dealer.setPot(dealer.getPot() - betAmount);
-	}
-}
+//void Player::betDecrease(Dealer& dealer) {
+//	int betAmount = 10;
+//	if ( getToken() < 100 && getToken() >= 0) {
+//		setToken(getToken() + betAmount);
+//		dealer.setPot(dealer.getPot() - betAmount);
+//	}
+//}

@@ -1,36 +1,59 @@
 #include "pokerCard.h"
 
 PokerCard::PokerCard() {
+	cardNumber = 0;
+	suit = "";
+	color = "";
+	imageName = "";
+	isGiven = false;
+}
+
+PokerCard::PokerCard(int cardNumber, std::string suit, std::string color) {
+	this->cardNumber = cardNumber;
+	this->suit = suit;
+	this->color = color; 
+
 	this->texture = new sf::Texture();
+	this->imageName = "Textures/" + std::to_string(cardNumber) + suit + ".png";
+	setTextureCard(imageName);
 }
 
 PokerCard::~PokerCard() {
 }
 
-std::string PokerCard::getType() {
-	return this->type;
+int PokerCard::getCardNumber() {
+	return this->cardNumber;
 }
 
-void PokerCard::setType(std::string type) {
-	this->type = type;
+void PokerCard::setCardNumber(int cardNumber) {
+	this->cardNumber = cardNumber;
 }
 
-int PokerCard::getNumberCard() {
-	return this->nameValue;
+std::string PokerCard::getImageNumber() {
+	return this->imageName;
 }
 
-void PokerCard::setNumberCard(int numberCard) {
-	this->nameValue = numberCard;
+std::string PokerCard::getSuit() {	
+	return this->suit;
+}
+
+void PokerCard::setSuit(std::string suit) {
+	this->suit = suit;
+}
+
+
+bool PokerCard::getIsGiven() {
+	return this->isGiven;
+}
+
+void PokerCard::setIsGiven(bool isGiven) {
+	this->isGiven = isGiven;
 }
 
 void PokerCard::setShapeSize(float width, float height) {
 		sf::Vector2f size(width, height);
 		this->shape.setSize(size);
 }
-
-//bool PokerCard::getIsGiven() {
-//	return this->isGiven;
-//}
 
 sf::RectangleShape PokerCard::getShape() {
 	return this->shape;
@@ -47,19 +70,7 @@ void PokerCard::drawMe(sf::RenderWindow &window) {
 	window.draw(shape);
 }
 
-//TO DO insertar el metodo que esta en Button CardPoker->shape.setTexture();
-
 void PokerCard::setPosition(float x, float y) {
 	sf::Vector2f position(x, y);
 	this->shape.setPosition(position);
 }
-
-
-
-
-
-// hacer el metodo que toquen la carta HMMMMMMMMMM
-
-//hacen las figuras y cargan las imagenes ahi 
-//shape texture le enviamos el vect
-//texure recibe la carta 

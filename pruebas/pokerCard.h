@@ -7,25 +7,35 @@ using namespace std;
 class PokerCard {
 
 private:
-	int nameValue;
 	sf::RectangleShape shape;
 	sf::Texture* texture;
-	std::string type;
+	int cardNumber;
+	string imageName;
+	std::string suit;
+	std::string color;
+	bool isGiven;
 public:
 	PokerCard();
+
+	PokerCard(int, std::string, std::string);
 	~PokerCard();
 
-	std::string getType();
-	void setType(std::string);
+	int getCardNumber();
+	void setCardNumber(int);
 
-	int getNumberCard();
-	void setNumberCard(int);
+	string getColor();
+	void setColor(string);
+
+	std::string getImageNumber();
+
+	std::string getSuit();
+	void setSuit(std::string);
+
+	bool getIsGiven();
+	void setIsGiven(bool);
+
 	void setPosition(sf::Vector2f);
-
 	void setShapeSize(float, float);
-
-	//bool getIsGiven();
-	//void setIsGiven(bool);
 
 	sf::RectangleShape getShape();
 	void setPosition(float, float);
