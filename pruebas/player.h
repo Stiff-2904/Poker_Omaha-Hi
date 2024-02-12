@@ -28,6 +28,7 @@ public:
 
 	void increaseCurrentBet(int);
 	void decreaseCurrentBet(int);
+	void allInCurrentBet(int);
 
 	PokerCard getCardsInHand(int);
 
@@ -37,5 +38,4 @@ public:
 	void fillHand(Dealer&);
 
 	void betIncrease(Dealer&);
-	//void betDecrease(Dealer&);
 };

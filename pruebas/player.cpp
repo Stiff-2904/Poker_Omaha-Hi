@@ -53,6 +53,13 @@ void Player::decreaseCurrentBet(int betValue) {
 	}
 }
 
+void Player::allInCurrentBet(int betValue) {
+	if ( betValue <= getToken()) {
+		this->currentBet += getToken();
+		setToken(0);
+	}
+}
+
 PokerCard Player::getCardsInHand(int positionVector) {
 	return cardsInHand[positionVector];
 }
@@ -73,14 +80,6 @@ void Player::fillHand(Dealer& dealer) {
 	}
 }
 
-void Player::betIncrease(Dealer& dealer) {//, int currentBet
+void Player::betIncrease(Dealer& dealer) {
 	dealer.setPot(dealer.getPot() + currentBet);
 }
-
-//void Player::betDecrease(Dealer& dealer) {
-//	int betAmount = 10;
-//	if ( getToken() < 100 && getToken() >= 0) {
-//		setToken(getToken() + betAmount);
-//		dealer.setPot(dealer.getPot() - betAmount);
-//	}
-//}

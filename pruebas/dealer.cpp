@@ -2,6 +2,7 @@
 
 Dealer::Dealer() {
 	pot = 0;
+	bigBlind = 0;
 }
 
 Dealer::~Dealer() {
@@ -62,6 +63,14 @@ PokerCard Dealer::getCard() {
 	}
 }
 
+int Dealer::getBigBlind() {
+	return this->bigBlind;
+}
+
+void Dealer::setBigBlind(int bigBlind) {
+	this->bigBlind = bigBlind;
+}
+
 void Dealer::fillCommunityCards(){
 	for (int i = 0; i < 5; i++) {
 		communityCards[i] = getCard();
@@ -72,6 +81,11 @@ PokerCard Dealer::getCommunityCards(int position) {
 	return communityCards[position];
 }
 
-int Dealer::reviewRoyalFlush() {
-	return 0;
+int Dealer::reviewRoyalFlush(Dealer dealer) {
+	int royalFlush[] = { 1, 13, 12, 11, 10 };
+	while (true)
+	{
+
+	}
+	return -1;
 }

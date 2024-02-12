@@ -141,6 +141,7 @@
     <ClCompile Include="player.cpp" />
     <ClCompile Include="pokerCard.cpp" />
     <ClCompile Include="pokerEngine.cpp" />
+    <ClCompile Include="safeFiles.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="button.h" />
@@ -150,6 +151,7 @@
     <ClInclude Include="player.h" />
     <ClInclude Include="pokerCard.h" />
     <ClInclude Include="pokerEngine.h" />
+    <ClInclude Include="safeFiles.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
