@@ -41,30 +41,6 @@ void Dealer::fillDeck() {
 	}
 }
 
-void Dealer::checkingRounds(int& counterPlayerRounds, int& counterRounds, int sizePlayers) {
-
-	if (counterPlayerRounds < sizePlayers) {
-		counterPlayerRounds++;
-	}
-	else {
-		counterPlayerRounds = 1;
-		counterRounds++;
-	}
-}
-
-
-/*if (counterPlayerRounds <= sizePlayers) {
-								if (counterPlayerRounds == 2 && counterRounds == 1) {
-									dealer.setBigBlind(playerAux->getCurrentBet());
-									//cout << "soy la ciega: " << dealer.getBigBlind();
-								}
-								counterPlayerRounds++;
-							}
-							else {
-								counterPlayerRounds = 1;
-								counterRounds++;
-							}*/
-
 void Dealer::deckShufle() {
 
 	int iter, randomPos;
@@ -105,10 +81,91 @@ PokerCard Dealer::getCommunityCards(int position) {
 	return communityCards[position];
 }
 
-int Dealer::reviewRoyalFlush(Player* player) {
-	int royalFlush[] = { 1, 13, 12, 11, 10 };// As, K, Q, j, 10
+void Dealer::checkingRounds(int& counterPlayerRounds, int& counterRounds, int sizePlayers) {
+
+	if (counterPlayerRounds < sizePlayers) {
+		counterPlayerRounds++;
+	}
+	else {
+		counterPlayerRounds = 1;
+		counterRounds++;
+	}
+}
+
+Player* Dealer::checkingWinner(Player* player, int sizePlayers) {
+
+	return player;
+}
+
+int* Dealer::joinCards(int* allCards, Player* player) {
+	int sizeAllCards = 9;
+
+	for (int i = 0; i < 5; i++) {
+		allCards[i] = communityCards[i].getCardNumber();
+	}
+
+	for (int i = 0; i < 4; i++) {
+		allCards[i + 5] = player->getCardsInHand(i).getCardNumber();
+	}
+	return allCards;
+}
 
 
+int Dealer::reviewRoyalFlush(Player* player) {// revisarsssss
+	std::string suits[4] = { "heart", "diamond", "spades", "clover" };
+	int cardNumbers[5] = { 1, 10, 11, 12, 13 }; // As, 10, J, Q, K 
+	bool hasRoyalFlush = true, found = false;
 
-	return -1;
+	for (int i = 0; i < 5; ++i) {
+		for (int j = 0; j < 4; ++j) {
+			if ((player->getCardsInHand(i).getSuit() == suits[j] &&
+				player->getCardsInHand(i).getCardNumber() == cardNumbers[i]) ||
+				(communityCards[i].getSuit() == suits[j] &&
+					communityCards[i].getCardNumber() == cardNumbers[i])) {
+				found = true;
+				break;
+			}
+		}
+		if (!found) {
+			hasRoyalFlush = false;
+			break;
+		}
+	}
+
+	return hasRoyalFlush ? 50 : -1;
+}
+
+
+int Dealer::onePair(Player* player) {
+	int* allCards = new int[9];
+	allCards = joinCards(allCards, player);
+	bool isOnePair = false;
+
+	for (int i = 0; i < 9; i++) {
+		for (int j = i + 1; j < 9; j++) {
+			if (allCards[i] == allCards[j]) {
+				isOnePair = true;
+				break;
+			}
+		}
+		if (isOnePair) {
+			break;
+		}
+	}
+
+	delete[] allCards;
+
+	return isOnePair ? 10 : -1;
+}
+
+
+int Dealer::highCard(Player* player) {// esto evalua cada jugador toms en checkingRounds habria que hacer un for hasta sizePlayer
+	int highestCard = 0, cardNumber;
+
+	for (int j = 0; j < 4; j++) {
+		cardNumber = player->getCardsInHand(j).getCardNumber();
+		highestCard = std::max(highestCard, cardNumber);
+	}
+
+	return highestCard;
 }

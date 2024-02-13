@@ -388,7 +388,6 @@ void game() {
 	enterButton.setShapePosition(1150, 150);
 	enterButton.setTextPosition(1150, 150);
 
-	//Aqui se esta intentando acceder
 	dealer.reviewRoyalFlush(playerAux);
 
 	while (window.isOpen()) {
@@ -474,7 +473,7 @@ void game() {
 					}
 					else {
 						if (!playerAux->getIsBet()) {
-							window.draw(needToBet);      //no sirveeee
+							window.draw(needToBet);
 							window.display();
 						}
 						else {
@@ -569,4 +568,4 @@ void game() {
 			}
 		}
 	}
-}																																																																																																																																																 ////	cout << "prueba";//
+}																		
