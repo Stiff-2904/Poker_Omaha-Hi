@@ -1,6 +1,9 @@
 #pragma once
-#include "dealer.h"
+
+class Dealer;
+
 #include <string>
+#include "dealer.h"
 
 class Player {
 private:
@@ -10,6 +13,7 @@ private:
 	bool isPlaying = true;
 	bool isbet = false;
 	int currentBet;
+	int positionPlayer;
 public:
 	Player();
 	~Player();
@@ -25,6 +29,9 @@ public:
 
 	int getCurrentBet();
 	void setCurrentBet(int);
+
+	int getPositionPlayer();
+	void setPositionPlayer(int);
 
 	void increaseCurrentBet(int);
 	void decreaseCurrentBet(int);

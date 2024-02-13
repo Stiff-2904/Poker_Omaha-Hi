@@ -5,6 +5,7 @@ ListPlayer::ListPlayer(int sizeOfPlayers) {
     for (int i = 0; i < sizeOfPlayers; i++) {
         Player* player = new Player();
         player->setNamePlayer(i + 1);
+        player->setPositionPlayer(i + 1);
         pushPlayer(player);
     }
 }

@@ -41,6 +41,30 @@ void Dealer::fillDeck() {
 	}
 }
 
+void Dealer::checkingRounds(int& counterPlayerRounds, int& counterRounds, int sizePlayers) {
+
+	if (counterPlayerRounds < sizePlayers) {
+		counterPlayerRounds++;
+	}
+	else {
+		counterPlayerRounds = 1;
+		counterRounds++;
+	}
+}
+
+
+/*if (counterPlayerRounds <= sizePlayers) {
+								if (counterPlayerRounds == 2 && counterRounds == 1) {
+									dealer.setBigBlind(playerAux->getCurrentBet());
+									//cout << "soy la ciega: " << dealer.getBigBlind();
+								}
+								counterPlayerRounds++;
+							}
+							else {
+								counterPlayerRounds = 1;
+								counterRounds++;
+							}*/
+
 void Dealer::deckShufle() {
 
 	int iter, randomPos;
@@ -81,11 +105,10 @@ PokerCard Dealer::getCommunityCards(int position) {
 	return communityCards[position];
 }
 
-int Dealer::reviewRoyalFlush(Dealer dealer) {
-	int royalFlush[] = { 1, 13, 12, 11, 10 };
-	while (true)
-	{
+int Dealer::reviewRoyalFlush(Player* player) {
+	int royalFlush[] = { 1, 13, 12, 11, 10 };// As, K, Q, j, 10
 
-	}
+
+
 	return -1;
 }

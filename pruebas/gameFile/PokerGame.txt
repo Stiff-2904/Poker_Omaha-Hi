@@ -1,0 +1,138 @@
+>Game1--------------------------
+
+>Game2--------------------------
+
+>Game3--------------------------
+
+>Game4--------------------------
+
+>Game5--------------------------
+Player1 tiene el turno
+Player1 aposto 10 chips
+Player2 integrated into the game
+Player2 tiene el turno
+Player2 aposto 10 chips
+Player3 integrated into the game
+Player3 tiene el turno
+Player3 aposto 10 chips
+Player4 integrated into the game
+Player4 tiene el turno
+Player4 aposto 10 chips
+Player1 integrated into the game
+Player1 tiene el turno
+Player1 aposto 20 chips
+Player2 integrated into the game
+Player2 tiene el turno
+Player2 aposto 20 chips
+Player3 integrated into the game
+Player3 tiene el turno
+Player3 aposto 90 chips
+Player4 integrated into the game
+
+>Game6--------------------------
+Round started
+
+3 Players on the table
+
+Player1 tiene el turno
+Player1 aposto 100 chips
+Player2 Has the turn 
+Player2 tiene el turno
+Player2 aposto 30 chips
+Player3 Has the turn 
+
+>Game7--------------------------
+Round started
+
+4 Players on the table
+
+Player1 Has the turn 
+Player1 bet  20 bets
+Player2 Has the turn 
+Player2 bet  20 bets
+Player3 Retreated from the game
+Player4 Has the turn 
+Player4 bet  20 bets
+
+>Game8--------------------------
+Round started
+
+6 Players on the table
+
+
+>Game9--------------------------
+Round started
+
+2 Players on the table
+
+Player1 Has the turn 
+Player1 bet  10 bets
+Player2 Has the turn 
+Player2 bet  10 bets
+Player1 Has the turn 
+Player1 bet  10 bets
+Player2 Has the turn 
+Player2 bet  10 bets
+Player1 Has the turn 
+Player1 bet  10 bets
+Player2 Has the turn 
+Player2 bet  10 bets
+
+>Game10--------------------------
+Round started
+
+3 Players on the table
+
+Player1 Has the turn 
+Player1 bet  10 bets
+Player2 Has the turn 
+Player2 bet  10 bets
+Player3 Has the turn 
+Player3 bet  10 bets
+Player1 Has the turn 
+Player1 bet  10 bets
+Player2 Has the turn 
+Player2 bet  10 bets
+Player3 Has the turn 
+Player3 bet  10 bets
+Player1 Has the turn 
+Player1 bet  10 bets
+Player2 Has the turn 
+Player2 bet  10 bets
+Player3 Has the turn 
+Player3 bet  80 bets
+
+>Game11--------------------------
+Round started
+
+2 Players on the table
+
+Player1 Has the turn 
+Player1 bet  10 bets
+Player2 Retreated from the game
+Player1 Has the turn 
+Player1 bet  10 bets
+Player1 Has the turn 
+Player1 bet  80 bets
+Player2 Has the turn 
+Player2 bet  20 bets
+
+>Game12--------------------------
+Round started
+
+3 Players on the table
+
+Player1 Has the turn 
+Player1 bet  30 bets
+Player2 Has the turn 
+Player2 bet  20 bets
+Player3 Retreated from the game
+Player1 Has the turn 
+Player1 bet  40 bets
+Player2 Has the turn 
+Player2 bet  80 bets
+Player1 Has the turn 
+Player1 bet  30 bets
+Player2 Retreated from the game
+Player3 Has the turn 
+Player3 bet  20 bets

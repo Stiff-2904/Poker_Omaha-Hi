@@ -8,7 +8,7 @@ private:
 	sf::RectangleShape shape;
 	sf::Text text;
 	int state;
-
+	
 public:
 	Button(sf::RectangleShape, int);
 	Button();

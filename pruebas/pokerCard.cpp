@@ -29,6 +29,10 @@ void PokerCard::setCardNumber(int cardNumber) {
 	this->cardNumber = cardNumber;
 }
 
+std::string PokerCard::getColor() {
+	return this->color;
+}
+
 std::string PokerCard::getImageNumber() {
 	return this->imageName;
 }

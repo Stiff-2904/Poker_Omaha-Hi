@@ -39,6 +39,14 @@ void Player::setCurrentBet(int value ) {
 	this->currentBet = value;
 }
 
+int Player::getPositionPlayer() {
+	return this->positionPlayer;
+}
+
+void Player::setPositionPlayer(int positionPlayer) {
+	this->positionPlayer = positionPlayer;
+}
+
 void Player::increaseCurrentBet(int betValue) {
 	if (getToken() >= 10) {
 		this->currentBet += betValue;

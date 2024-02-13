@@ -1,6 +1,9 @@
 #include "pokerEngine.h"
 #include "safeFiles.h"
 
+const string folderName = "gameFile";
+const string fileName = "PokerGame.txt";
+
 //variables globales (todo lo que es grafico)
 sf::RenderWindow window(sf::VideoMode(1280, 720), "POKER");
 //Las del menu
@@ -242,13 +245,23 @@ void numOfPlayers() {
 void game() {
 
 	int betAmount = 0, i = 0, counterRounds = 1, sizeCardsInHand = 4, counterPlayerRounds = 1;
-	bool gameOver = false;
+	bool gameOver = false, starGame = false;
 	Button increaseBetButton, decreaseBetButton, allInButton, nextButton, leaveButton, enterButton;
 	ListPlayer listPlayer(sizePlayers);
 	Dealer dealer;
 	Node* node = listPlayer.getHead();
 	Player* playerAux = node->getPlayer();
 	PokerCard cardCommu, cardComu1, cardComu2, cardComu3, cardComu4, cardComu5, card, card1, card2, card3, card4;
+	SafeFiles file;
+
+	ifstream checkFile(folderName + "/" + fileName);
+	if (!checkFile) {
+		file.createRegisterFile();
+	}
+	else {
+		checkFile.close();
+		file.createNewGame();
+	}
 
 	font3.loadFromFile("Fonts/limon_font3.otf");
 	backgroundGameFile.loadFromFile("Textures/background_game3.png");
@@ -375,9 +388,16 @@ void game() {
 	enterButton.setShapePosition(1150, 150);
 	enterButton.setTextPosition(1150, 150);
 
+	//Aqui se esta intentando acceder
+	dealer.reviewRoyalFlush(playerAux);
+
 	while (window.isOpen()) {
 
-		//startNewGame(sizePlayers); revisar ma;ana
+		if (!starGame) {
+			file.writeMessage("Round started\n", -1, -1, 'R');//cambiar lo que tiene lo que tiene dentro de " xd "
+			file.writeMessage("Players on the table\n", sizePlayers, -1, 'P'); // cambiar lo que tiene " xd "
+			starGame = true;
+		}
 
 		loopRefresh();
 		window.draw(backgroundGame);
@@ -447,6 +467,7 @@ void game() {
 					window.display();
 				}
 				if (nextButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
+					file.writeMessage("Has the turn ", playerAux->getPositionPlayer(), -1, 'T');
 
 					if (playerAux->getCurrentBet() == 0){
 						cout << "no hay billete"; 
@@ -458,19 +479,13 @@ void game() {
 						}
 						else {
 
-							if (counterPlayerRounds <= sizePlayers) {
-								if (counterPlayerRounds == 2 && counterRounds == 1) {
-									dealer.setBigBlind(playerAux->getCurrentBet());
-									cout << "soy la ciega: " << dealer.getBigBlind();
-								}
-								counterPlayerRounds++;
-							}
-							else {
-								counterPlayerRounds = 1;
-								counterRounds++;
+							dealer.checkingRounds(counterPlayerRounds, counterRounds, sizePlayers);
+							if (counterPlayerRounds == 2 && counterRounds == 1) {
+								dealer.setBigBlind(playerAux->getCurrentBet());
 							}
 
 							playerAux->betIncrease(dealer);
+							file.writeMessage("bet ", playerAux->getPositionPlayer(), playerAux->getCurrentBet(), 'B');
 							playerAux->setCurrentBet(0);
 							potText.setString("Pot: " + std::to_string(dealer.getPot()));
 							currentBet.setString("Current bet: " + std::to_string(playerAux->getCurrentBet()));
@@ -494,6 +509,9 @@ void game() {
 					}
 				}
 				if (leaveButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
+
+					file.writeMessage("Retreated from the game", playerAux->getPositionPlayer(), -1, 'O');
+
 					playerAux->setCurrentBet(0);
 					currentBet.setString("Current bet: " + std::to_string(playerAux->getCurrentBet()));
 					playerAux->setIsPlaying(false);
@@ -512,20 +530,13 @@ void game() {
 					namePlayerText.setString(playerAux->getNamePlayer());
 					token.setString("Token: " + std::to_string(playerAux->getToken()));
 
-					if (counterPlayerRounds <= sizePlayers) {
-						counterPlayerRounds++;  
-					}
-					else {
-						counterPlayerRounds = 1;
-						counterRounds++;
-					}
+					dealer.checkingRounds(counterPlayerRounds, counterRounds, sizePlayers);
+
 				}
 				if (enterButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
 
 					if (playerAux->getToken() >= dealer.getBigBlind()) {
-						cout << dealer.getBigBlind() << endl;
 						playerAux->setToken(playerAux->getToken() - dealer.getBigBlind());
-						cout << playerAux->getToken() << endl;
 						playerAux->setIsPlaying(true);
 						token.setString("Token: " + std::to_string(playerAux->getToken()));
 						node = node->getNext();
@@ -544,13 +555,7 @@ void game() {
 						namePlayerText.setString(playerAux->getNamePlayer());
 						token.setString("Token: " + std::to_string(playerAux->getToken()));
 
-						if (counterPlayerRounds <= sizePlayers) {
-							counterPlayerRounds++;
-						}
-						else {
-							counterPlayerRounds = 1;
-							counterRounds++;
-						}
+						dealer.checkingRounds(counterPlayerRounds, counterRounds, sizePlayers);
 					}
 					cout << "no hay billete";
 					window.draw(needToBet);      //no sirveeee
