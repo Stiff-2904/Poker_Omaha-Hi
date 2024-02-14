@@ -9,6 +9,7 @@ PokerCard::PokerCard() {
 }
 
 PokerCard::PokerCard(int cardNumber, std::string suit, std::string color) {
+
 	this->cardNumber = cardNumber;
 	this->suit = suit;
 	this->color = color; 
@@ -44,7 +45,6 @@ std::string PokerCard::getSuit() {
 void PokerCard::setSuit(std::string suit) {
 	this->suit = suit;
 }
-
 
 bool PokerCard::getIsGiven() {
 	return this->isGiven;

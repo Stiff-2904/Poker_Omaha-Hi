@@ -4,6 +4,7 @@
 #include "button.h"
 
 int main() {
+
     srand(time(NULL));
     startMenu();
 

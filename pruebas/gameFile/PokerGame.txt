@@ -1,148 +1,984 @@
 >Game1--------------------------
-Round started
+Game started
 
-3 Players on the table
+2 Players on the table
 
+Player1 Has the turn 
+Player1 bet 10 bets
+Player2 Has the turn 
+Player2 bet 10 bets
+Player1 Has the turn 
+Player1 bet 10 bets
+Player2 Has the turn 
+Player2 bet 10 bets
+Player1 Has the turn 
+Player1 bet 10 bets
+Player2 Has the turn 
+Player2 bet 10 bets
+Player1 Has the turn 
+Player1 bet 10 bets
+Player2 Has the turn 
+Player2 bet 10 bets
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
+Player1 WINNER!!
 
 >Game2--------------------------
-Round started
+Game started
 
-3 Players on the table
+4 Players on the table
 
 Player1 Has the turn 
-Player1 bet 20 bets
+Player1 bet 10 bets
 Player2 Has the turn 
-Player2 bet 20 bets
+Player2 bet 10 bets
 Player3 Has the turn 
-Player3 bet 20 bets
+Player3 bet 10 bets
+Player4 Has the turn 
+Player4 bet 10 bets
 Player1 Has the turn 
-Player1 bet 20 bets
+Player1 bet 10 bets
 Player2 Has the turn 
-Player2 bet 20 bets
+Player2 bet 10 bets
 Player3 Has the turn 
-Player3 bet 20 bets
+Player3 bet 10 bets
+Player4 Has the turn 
+Player4 bet 10 bets
+Player1 Has the turn 
+Player1 bet 10 bets
+Player2 Has the turn 
+Player2 bet 10 bets
+Player3 Has the turn 
+Player3 bet 10 bets
+Player4 Has the turn 
+Player4 bet 10 bets
+Player1 Has the turn 
+Player1 bet 10 bets
+Player2 Has the turn 
+Player2 bet 10 bets
+Player3 Has the turn 
+Player3 bet 10 bets
+Player4 Has the turn 
+Player4 bet 10 bets
+Player2 WINNER!
 
 >Game3--------------------------
-Round started
+Game started
 
-3 Players on the table
+2 Players on the table
 
 
 >Game4--------------------------
-Round started
-
-3 Players on the table
-
-Player1 Retreated from the game
-Player2 Retreated from the game
-Player3 Retreated from the game
-Player1 Retreated from the game
-
->Game5--------------------------
-
->Game6--------------------------
-Round started
-
-6 Players on the table
-
-Player1 Has the turn 
-Player1 bet 100 bets
-Player2 Retreated from the game
-Player3 Has the turn 
-Player3 bet 20 bets
-Player4 Retreated from the game
-Player5 Has the turn 
-Player5 bet 20 bets
-Player6 Has the turn 
-Player6 bet 20 bets
-Player1 Retreated from the game
-
->Game7--------------------------
-Round started
-
-6 Players on the table
-
-Player1 Has the turn 
-Player1 bet 20 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-
->Game8--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Retreated from the game
-Player2 Has the turn 
-Player2 bet 30 bets
-Player3 Retreated from the game
-Player4 Has the turn 
-Player4 bet 30 bets
-Player2 Retreated from the game
-Player3 Retreated from the game
-Player4 Retreated from the game
-Player1 Retreated from the game
-
->Game9--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Has the turn 
-Player1 bet 20 bets
-Player2 Has the turn 
-Player2 bet 20 bets
-Player3 Has the turn 
-Player3 bet 20 bets
-Player4 Has the turn 
-Player4 bet 20 bets
-Player1 Retreated from the game
-Player2 Retreated from the game
-Player3 Retreated from the game
-Player4 Retreated from the game
-Player1 Retreated from the game
-Player2 Retreated from the game
-
->Game10--------------------------
-
->Game11--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Has the turn 
-Player1 bet 20 bets
-Player2 Has the turn 
-Player2 bet 20 bets
-Player3 Has the turn 
-Player3 bet 20 bets
-Player4 Has the turn 
-Player4 bet 20 bets
-Player1 Retreated from the game
-Player2 Retreated from the game
-Player3 Retreated from the game
-
->Game12--------------------------
-
->Game13--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Has the turn 
-Player1 bet 20 bets
-Player2 Has the turn 
-Player2 bet 20 bets
-Player3 Has the turn 
-Player3 bet 20 bets
-Player4 Has the turn 
-Player4 bet 20 bets
-Player1 Retreated from the game
-Player2 Retreated from the game
-Player3 Retreated from the game
-
->Game14--------------------------
-Round started
+Game started
 
 4 Players on the table
 
@@ -150,778 +986,3961 @@ Player1 Has the turn
 Player1 bet 30 bets
 Player2 Has the turn 
 Player2 bet 20 bets
-
->Game15--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Has the turn 
-Player1 bet 40 bets
+Player3 Has the turn 
+Player3 bet 20 bets
+Player4 Has the turn 
+Player4 bet 20 bets
+Player1 Left the game
+Player2 Has the turn 
+Player2 Has the turn 
+Player2 Has the turn 
+Player2 Has the turn 
+Player2 Has the turn 
+Player2 Has the turn 
+Player2 Has the turn 
+Player2 Has the turn 
+Player2 Has the turn 
+Player2 Has the turn 
+Player2 Has the turn 
+Player2 Has the turn 
 Player2 Has the turn 
 Player2 bet 20 bets
 Player3 Has the turn 
-Player3 bet 20 bets
-Player4 Has the turn 
-Player4 bet 20 bets
-Player1 Has the turn 
-Player1 bet 60 bets
-Player2 Has the turn 
-Player2 bet 20 bets
-Player3 Has the turn 
-Player3 bet 20 bets
-Player4 Has the turn 
-Player4 bet 20 bets
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Retreated from the game
-Player2 Retreated from the game
-Player3 Has the turn 
-Player3 bet 20 bets
-Player4 Has the turn 
-Player4 bet 20 bets
-Player1 Has the turn 
-Player1 Retreated from the game
-
->Game16--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Has the turn 
-Player1 bet 20 bets
-Player2 Has the turn 
-Player2 bet 30 bets
-Player3 Has the turn 
-Player3 bet 20 bets
+Player3 bet 80 bets
 Player4 Has the turn 
 Player4 bet 10 bets
-Player1 Retreated from the game
+Player1 Enter the game
 Player2 Has the turn 
 Player2 bet 20 bets
 Player3 Has the turn 
-Player3 bet 20 bets
-Player4 Has the turn 
-Player4 bet 20 bets
-Player2 Retreated from the game
-Player3 Retreated from the game
-Player4 Has the turn 
-Player4 bet 20 bets
-Player1 Has the turn 
-Player1 bet 60 bets
-Player2 Retreated from the game
-
->Game17--------------------------
-
->Game18--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Has the turn 
-Player1 bet 20 bets
-Player2 Has the turn 
-Player2 bet 20 bets
 Player3 Has the turn 
-Player3 bet 20 bets
+Player3 Has the turn 
+Player3 Left the game
 Player4 Has the turn 
 Player4 bet 20 bets
 Player1 Has the turn 
 Player1 bet 20 bets
 Player2 Has the turn 
 Player2 bet 20 bets
-Player3 Has the turn 
-Player3 bet 20 bets
+Player3 Left the game
 Player4 Has the turn 
 Player4 bet 20 bets
-Player1 Has the turn 
-Player1 bet 20 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-
->Game19--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 20 bets
-Player1 Has the turn 
-Player1 bet 20 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 20 bets
-Player4 Has the turn 
-Player4 bet 60 bets
-Player1 Has the turn 
-Player1 bet 50 bets
-Player2 Has the turn 
-Player2 bet 60 bets
-Player3 Has the turn 
-Player3 bet 50 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-
->Game20--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-
->Game21--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-
->Game22--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-
->Game23--------------------------
-Round started
-
-4 Players on the table
-
-
->Game24--------------------------
-Round started
-
-4 Players on the table
-
-
->Game25--------------------------
-Round started
-
-4 Players on the table
-
-
->Game26--------------------------
-Round started
-
-4 Players on the table
-
-
->Game27--------------------------
-Round started
-
-4 Players on the table
-
-
->Game28--------------------------
-Round started
-
-4 Players on the table
-
-
->Game29--------------------------
-Round started
-
-4 Players on the table
-
-
->Game30--------------------------
-Round started
-
-4 Players on the table
-
-
->Game31--------------------------
-Round started
-
-4 Players on the table
-
-
->Game32--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 Has the turn 
-Player3 Has the turn 
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-
->Game33--------------------------
-Round started
-
-4 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player4 Has the turn 
-Player4 Has the turn 
-Player4 bet 10 bets
-
->Game34--------------------------
-Round started
-
-3 Players on the table
-
-
->Game35--------------------------
-Round started
-
-3 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player3 Has the turn 
-Player3 bet 10 bets
-
->Game36--------------------------
-Round started
-
-2 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-
->Game37--------------------------
-Round started
-
-2 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-
->Game38--------------------------
-Round started
-
-2 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-
->Game39--------------------------
-Round started
-
-2 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-
->Game40--------------------------
-Round started
-
-2 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-
->Game41--------------------------
-Round started
-
-2 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-
->Game42--------------------------
-Round started
-
-2 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-
->Game43--------------------------
-Round started
-
-2 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-
->Game44--------------------------
-Round started
-
-4 Players on the table
-
-
->Game45--------------------------
-Round started
-
-2 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-
->Game46--------------------------
-Round started
-
-2 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-
->Game47--------------------------
-Round started
-
-2 Players on the table
-
-Player1 Has the turn 
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-
->Game48--------------------------
-Round started
-
-2 Players on the table
-
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
-Player1 Has the turn 
-Player1 bet 10 bets
-Player2 Has the turn 
-Player2 bet 10 bets
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!
+Player1 WINNER!

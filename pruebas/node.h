@@ -11,7 +11,6 @@ public:
 
     void setPlayer(Player*);
     Player* getPlayer();
-
     void setNext(Node*);
     Node* getNext();
 };

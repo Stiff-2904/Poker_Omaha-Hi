@@ -39,6 +39,7 @@ public:
 
 	sf::RectangleShape getShape();
 	void setPosition(float, float);
+
 	void setTextureCard(std::string);
 	void drawMe(sf::RenderWindow&);
 };

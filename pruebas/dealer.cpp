@@ -16,9 +16,7 @@ void Dealer::setPot(int pot) {
 	this->pot = pot; 
 }
 
-
 void Dealer::fillDeck() {
-	
 	string colors[2] = { "red", "black" };
 	string suits[4] = { "heart", "diamond", "spades", "clover" };
 
@@ -26,7 +24,7 @@ void Dealer::fillDeck() {
 
 	for (iterSuit = 0; iterSuit < 4; iterSuit++) {
 
-		for (iterNumber = 1; iterNumber <= 13; iterNumber++) {// 1 a 13 
+		for (iterNumber = 1; iterNumber <= 13; iterNumber++) {
 
 			if (iterSuit < 2) {
 				PokerCard card(iterNumber, suits[iterSuit], colors[0]);
@@ -42,7 +40,6 @@ void Dealer::fillDeck() {
 }
 
 void Dealer::deckShufle() {
-
 	int iter, randomPos;
 
 	for (iter = 0; iter < 52; iter++) {
@@ -54,11 +51,11 @@ void Dealer::deckShufle() {
 }
 
 PokerCard Dealer::getCard() {
-	int i;
-	for (i = 0; i < 52; i++) {
-		if (!arrayCards[i].getIsGiven()) {
-			arrayCards[i].setIsGiven(true);
-			return arrayCards[i];
+	int iter;
+	for (iter = 0; iter < 52; iter++) {
+		if (!arrayCards[iter].getIsGiven()) {
+			arrayCards[iter].setIsGiven(true);
+			return arrayCards[iter];
 		}
 	}
 }
@@ -82,7 +79,6 @@ PokerCard Dealer::getCommunityCards(int position) {
 }
 
 void Dealer::checkingRounds(int& counterPlayerRounds, int& counterRounds, int sizePlayers) {
-
 	if (counterPlayerRounds < sizePlayers) {
 		counterPlayerRounds++;
 	}
@@ -108,47 +104,21 @@ PokerCard* Dealer::bubbleSort(PokerCard* vectorCards) {
 	return vectorCards;
 }
 
-Player* Dealer::checkingWinner(Player* player, Node* node, int sizePlayers) {
-	Player* winner = nullptr;
-	int maxScore = -1, score;
-
-	for (int i = 0; i < sizePlayers; i++) {
-		score = -1;
-		if ((score = reviewRoyalFlush(player)) != -1) {
-			if (score > maxScore) {
-				maxScore = score;
-				winner = player;
-			}
-		}
-		if ((score = reviewStraightFlush(player)) != -1) {
-			if (score > maxScore) {
-				maxScore = score;
-				winner = player;
-			}
-		}
-		// Agregar otras funciones de evaluación aquí...
-		if ((score = twoPairs(player)) != -1) {
-			if (score > maxScore) {
-				maxScore = score;
-				winner = player;
-			}
-		}
-		if ((score = onePair(player)) != -1) {
-			if (score > maxScore) {
-				maxScore = score;
-				winner = player;
-			}
-		}
-		if ((score = highCard(player)) != -1) {
-			if (score > maxScore) {
-				maxScore = score;
-				winner = player;
-			}
-		}
-		node = node->getNext();
-		player = node->getPlayer();
+void Dealer::saveScore(Player* player) {
+	int score = 0;
+	if ((reviewStraightFlush(player)) != -1) {
+		score = reviewStraightFlush(player);
+		player->setScore(score);
+	}else if ((twoPairs(player)) != -1) {
+		score = twoPairs(player);
+		player->setScore(score);
+	}else if ((onePair(player)) != -1) {
+		score = onePair(player);
+		player->setScore(score);
+	}else if ((highCard(player)) != -1) {
+		score = highCard(player);
+		player->setScore(score);
 	}
-	return winner;
 }
 
 PokerCard* Dealer::joinCards(Player* player) {
@@ -167,33 +137,36 @@ PokerCard* Dealer::joinCards(Player* player) {
 }
 
 int Dealer::reviewRoyalFlush(Player* player) {
-	std::string suits[4] = { "heart", "diamond", "spades", "clover" };
-	int cardNumbers[5] = { 1, 10, 11, 12, 13 };
-	bool found = false;
+	const std::string suits[4] = { "heart", "diamond", "spades", "clover" };
+	const int royalFlushValues[5] = { 1, 10, 11, 12, 13 };
 
-	PokerCard* allCards = joinCards(player);
-	allCards = bubbleSort(allCards);
 	bool hasRoyalFlush = true;
 
-	for (int i = 0; i < sizeAllCards; ++i) {
-		//aqui
+	std::string suitOfFirstCard = player->getCardsInHand(0).getSuit();
+	for (int i = 1; i < 4; ++i) {
+		if (player->getCardsInHand(i).getSuit() != suitOfFirstCard) {
+			hasRoyalFlush = false;
+			break;
+		}
 	}
 
-	delete[] allCards;
-
-	return hasRoyalFlush ? 50 : -1;
+	for (int i = 0; i < 5; ++i) {
+		if (player->getCardsInHand(i).getCardNumber() != royalFlushValues[i]) {
+			hasRoyalFlush = false;
+			break;
+		}
+	}
+	return hasRoyalFlush ? REVIEW_ROYAL_FLUSH_SCORE : NO_SCORE;
 }
 
-
 int Dealer::reviewStraightFlush(Player* player) {
-
 	PokerCard* allCards = joinCards(player);
 	allCards = bubbleSort(allCards);
 
 	bool checkStraightFlush = false;
 	int consecutiveCount = 1;
 
-	for (int i = 0; i < sizeAllCards; i++) {
+	for (int i = 0; i < sizeAllCards - 1; i++) {
 		if (allCards[i].getSuit() == allCards[i + 1].getSuit() &&
 			allCards[i].getCardNumber() == allCards[i + 1].getCardNumber() - 1) {
 			consecutiveCount++;
@@ -206,10 +179,8 @@ int Dealer::reviewStraightFlush(Player* player) {
 			consecutiveCount = 1;
 		}
 	}
-
 	delete[] allCards;
-
-	return checkStraightFlush ? 45 : -1;
+	return checkStraightFlush ? STRAIGHT_FLUSH_SCORE : NO_SCORE;
 }
 
 int Dealer::twoPairs(Player* player) {
@@ -220,7 +191,7 @@ int Dealer::twoPairs(Player* player) {
 
 	allCards = bubbleSort(allCards);
 
-	for (int i = 0; i < sizeAllCards; i++) {
+	for (int i = 0; i < sizeAllCards - 1; i++) {
 		if (allCards[i].getCardNumber() == allCards[i + 1].getCardNumber()) {
 			if (!foundFirstPair) {
 				foundFirstPair = true;
@@ -233,10 +204,8 @@ int Dealer::twoPairs(Player* player) {
 			}
 		}
 	}
-
 	delete[] allCards;
-
-	return (foundFirstPair && foundSecondPair) ? 15 : -1;
+	return (foundFirstPair && foundSecondPair) ? TWO_PAIRS_SCORE : -1;
 }
 
 int Dealer::onePair(Player* player) {
@@ -246,7 +215,7 @@ int Dealer::onePair(Player* player) {
 	bool isOnePair = false;
 	int j, i;
 
-	for (i = 0; i < sizeAllCards; i++) {
+	for (i = 0; i < sizeAllCards - 1; i++) {
 		for (j = i + 1; j < sizeAllCards; j++) {
 			if (allCards[i].getCardNumber() == allCards[j].getCardNumber()) {
 				isOnePair = true;
@@ -257,21 +226,16 @@ int Dealer::onePair(Player* player) {
 			break;
 		}
 	}
-
 	delete[] allCards;
-
-	return isOnePair ? 10 : -1;
+	return isOnePair ? ONE_PAIRS_SCORE : NO_SCORE;
 }
 
-//
-
-int Dealer::highCard(Player* player) {// esto evalua cada jugador toms en checkingRounds habria que hacer un for hasta sizePlayer
+int Dealer::highCard(Player* player) {
 	int highestCard = 0, cardNumber;
 
 	for (int j = 0; j < 4; j++) {
 		cardNumber = player->getCardsInHand(j).getCardNumber();
 		highestCard = std::max(highestCard, cardNumber);
 	}
-
 	return highestCard;
 }

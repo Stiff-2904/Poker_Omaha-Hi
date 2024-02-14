@@ -6,6 +6,7 @@ class Dealer;
 #include "dealer.h"
 
 class Player {
+
 private:
 	PokerCard cardsInHand[4];
 	int token;
@@ -14,6 +15,7 @@ private:
 	bool isbet = false;
 	int currentBet;
 	int positionPlayer;
+	int score;
 public:
 	Player();
 	~Player();
@@ -33,9 +35,11 @@ public:
 	int getPositionPlayer();
 	void setPositionPlayer(int);
 
+	int getScore();
+	void setScore(int);
+
 	void increaseCurrentBet(int);
 	void decreaseCurrentBet(int);
-	void allInCurrentBet(int);
 
 	PokerCard getCardsInHand(int);
 

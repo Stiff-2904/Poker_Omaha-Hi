@@ -22,38 +22,52 @@ sf::Vector2f Button::getSize() const {
 	return shape.getSize();
 }
 
-sf::RectangleShape Button::getShape() { return this->shape; }
+sf::RectangleShape Button::getShape() { 
+	return this->shape; 
+}
 
-int Button::getState() { return this->state; }
-void Button::setState(int state) { this->state = state; }
+int Button::getState() {
+	return this->state; 
+}
+void Button::setState(int state) { 
+	this->state = state; 
+}
 
-std::string Button::getText() { return this->text.getString(); } //clase text en sf
+std::string Button::getText() {
+	return this->text.getString();
+}
 
-void Button::setText(std::string text) { this->text.setString(text); }
+void Button::setText(std::string text) { 
+	this->text.setString(text); 
+}
 
 void Button::setTextPosition(float x, float y) {
-	const float textPositionX = x + (this->shape.getGlobalBounds().width / 2.f) - (this->text.getGlobalBounds().width / 2.f); //mitad del ancho
-	const float textPositionY = y + (this->shape.getGlobalBounds().height / 2.f) - (this->text.getGlobalBounds().height / 2.f); //mitad de altura
+	const float textPositionX = x + (this->shape.getGlobalBounds().width / 2.f) - (this->text.getGlobalBounds().width / 2.f);
+	const float textPositionY = y + (this->shape.getGlobalBounds().height / 2.f) - (this->text.getGlobalBounds().height / 2.f);
 
 	this->text.setPosition(textPositionX, textPositionY);
 }
 
+void Button::addLetterSize(int size) { 
+	this->text.setCharacterSize(size); 
+}
 
-void Button::addLetterSize(int size) { this->text.setCharacterSize(size); }
+void Button::addFontText(sf::Font& font) { 
+	this->text.setFont(font); 
+}
 
-void Button::addFontText(sf::Font& font) { this->text.setFont(font); }
+void Button::addFillColorText(sf::Color color) { 
+	this->text.setFillColor(color); 
+}
 
-void Button::addFillColorText(sf::Color color) { this->text.setFillColor(color); }
-
-bool Button::isPressed(sf::Vector2f vec, int state) {   //Vector2f es la posicion de los pixeles digamos 
-	if (this->state == 0 && this->shape.getGlobalBounds().contains(vec)) { //para saber el estado y si la figura est  contenida en la figura
-		setState(state);
-		return true;      //el boton est  siendo presionado 
+bool Button::isPressed(sf::Vector2f vec, int state) {   
+	if (this->state == 0 && this->shape.getGlobalBounds().contains(vec)) { 
+		return true;    
 	}
 	return false;
 }
 
-void Button::drawMe(sf::RenderWindow& window) {  //externas al main se usa el &
+void Button::drawMe(sf::RenderWindow& window) {
 	window.draw(this->shape);
 	window.draw(this->text);
 }

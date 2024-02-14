@@ -1,15 +1,14 @@
 #include "pokerEngine.h"
 #include "safeFiles.h"
 
-const string folderName = "gameFile";
-const string fileName = "PokerGame.txt";
+const string FOLDER_NAME = "gameFile";
+const string FILE_NAME = "PokerGame.txt";
 sf::RenderWindow window(sf::VideoMode(1280, 720), "POKER");
-sf::Texture backgroundMenuFile, backgroundPlayersFile, backgroundGameFile, buttonFile, betButtonFile;
-sf::Sprite backgroundMenu, backgroundPlayer, backgroundGame, button, betButton;
+sf::Texture backgroundMenuFile, backgroundPlayersFile, backgroundGameFile, backgroundAboutFile;
+sf::Sprite backgroundMenu, backgroundPlayer, backgroundGame, backgroundAbout;
 sf::Font font1, font2, font3;
 sf::Vector2i mousePos;
 sf::Event gameLoop, gamePlay;
-int turn, winnerPlayer = 0;
 int sizePlayers = 0;
 Button playButton, aboutButton, exitButton;
 
@@ -80,15 +79,12 @@ void startMenu() {
 
 void aboutWindow() {
 
-	backgroundMenuFile.loadFromFile("Textures/background_black1.png");
-	backgroundPlayersFile.loadFromFile("Textures/background_players.png");
-	backgroundMenu.setTexture(backgroundMenuFile);
-	backgroundGame.setTexture(backgroundGameFile);
-	backgroundPlayer.setTexture(backgroundPlayersFile);
+	backgroundAboutFile.loadFromFile("Textures/background_about.jpg");
+	backgroundAbout.setTexture(backgroundAboutFile);
 	font1.loadFromFile("Fonts/texas_font.otf");
 
-	sf::Text Rules("RULES", font1, 100);
-	Rules.setPosition(300, 50);
+	sf::Text AboutTitle("About", font1, 100);
+	AboutTitle.setPosition(90, 50);
 
 	Button menuButton, exitButton;
 
@@ -97,8 +93,8 @@ void aboutWindow() {
 	menuButton.setText("Menu");
 	menuButton.addFillColorText(sf::Color::White);
 	menuButton.addFontText(font1);
-	menuButton.setShapePosition(980, 490);
-	menuButton.setTextPosition(980, 490);
+	menuButton.setShapePosition(980, 50);
+	menuButton.setTextPosition(980, 50);
 
 	exitButton.setShapeSize(200, 70);
 	exitButton.setFillColorShape(sf::Color::Black);
@@ -110,8 +106,8 @@ void aboutWindow() {
 
 	while (window.isOpen()) {
 		loopRefresh();
-		window.draw(backgroundMenu);
-		window.draw(Rules);
+		window.draw(backgroundAbout);
+		window.draw(AboutTitle);
 		menuButton.drawMe(window);
 		exitButton.drawMe(window);
 		window.display();
@@ -234,17 +230,18 @@ void numOfPlayers() {
 
 void game() {
 
-	int betAmount = 0, i = 0, counterRounds = 1, sizeCardsInHand = 4, counterPlayerRounds = 1, counterPlayerLeave = sizePlayers;
+	int betAmount = 0, i = 0, counterRounds = 1, counterPlayerRounds = 1, counterPlayerLeave = sizePlayers;
 	bool startGame = false, showNeedToBetMessage = false;
 	Button increaseBetButton, decreaseBetButton, allInButton, nextButton, leaveButton, enterButton;
 	ListPlayer listPlayer(sizePlayers);
 	Dealer dealer;
 	Node* node = listPlayer.getHead();
 	Player* playerAux = node->getPlayer();
+	Player* winner;
 	PokerCard cardCommu, cardComu1, cardComu2, cardComu3, cardComu4, cardComu5, card, card1, card2, card3, card4;
 	SafeFiles file;
 
-	ifstream checkFile(folderName + "/" + fileName);
+	ifstream checkFile(FOLDER_NAME + "/" + FILE_NAME);
 	if (!checkFile) {
 		file.createRegisterFile();
 	}
@@ -281,7 +278,6 @@ void game() {
 	card3.setShapeSize(150, 225);
 	card4.setShapeSize(150, 225);
 
-
 	int positionCardCommun = 0;
 	cardCommu = dealer.getCommunityCards(positionCardCommun);
 	cardComu1 = cardCommu;
@@ -304,15 +300,6 @@ void game() {
 	cardComu4.setPosition(710 + 20, 150);
 	cardComu5.setShapeSize(140, 190);
 	cardComu5.setPosition(865 + 20, 150);
-
-	allInButton.setShapeSize(90, 60);
-	allInButton.setFillColorShape(sf::Color::White);
-	allInButton.setText("All-in");
-	allInButton.addFillColorText(sf::Color::Black);
-	allInButton.addFontText(font3);
-	allInButton.addLetterSize(25);
-	allInButton.setShapePosition(30, 150);
-	allInButton.setTextPosition(30, 150);
 
 	increaseBetButton.setShapeSize(90, 60);
 	increaseBetButton.setFillColorShape(sf::Color::White);
@@ -367,14 +354,14 @@ void game() {
 	needToBet.setFillColor(sf::Color::White);
 	needToBet.setPosition(500, 370);
 
-	sf::Text winnerText("Winner ", font2, 50);
+	sf::Text winnerText("Winner ", font2, 100);
 	winnerText.setFillColor(sf::Color::White);
-	winnerText.setPosition(500, 200);
+	winnerText.setPosition(400, 200);
 
 	sf::Text potText("Pot: 0", font3, 30);
 	potText.setFillColor(sf::Color::White);
-	potText.setPosition(1100, 10);            
-
+	potText.setPosition(1100, 10);     
+	
 	sf::Text namePlayerText("Player 1", font2, 100);
 	namePlayerText.setFillColor(sf::Color::White);
 	namePlayerText.setPosition(400, 10);
@@ -383,7 +370,6 @@ void game() {
 	currentBet.setFillColor(sf::Color::White);
 	currentBet.setPosition(30, 50);
 
-
 	while (window.isOpen()) {
 
 		if (counterPlayerLeave == 1){
@@ -391,26 +377,41 @@ void game() {
 		}
 
 		if (counterRounds == 5) {
-			//dealer.checkingWinner(playerAux, node, sizePlayers);
-			winnerText.setString("Winner! \n" + playerAux->getNamePlayer());
+			int i = 0;
+			node = listPlayer.getHead();
+			playerAux = node->getPlayer();
+			while(i < sizePlayers){
+				dealer.saveScore(playerAux);
+				node = node->getNext();
+				playerAux = node->getPlayer();
+				i++;
+			}
+			node = listPlayer.getHead();
+			playerAux = node->getPlayer();
+			winner = playerAux;
 
+			int j = 0;
+			while(j < sizePlayers){
+				node = node->getNext();
+				playerAux = node->getPlayer();
+				if (playerAux->getScore() > winner->getScore()) {
+					winner = playerAux;
+				}
+				j++;
+			}
+			winnerText.setString("Winner!\n" + winner->getNamePlayer());
 			window.clear();
 			window.draw(backgroundMenu);
 			window.draw(winnerText);
 			window.display();
-
-			sf::Event event;
-			while (window.pollEvent(event)) {
-				if (event.type == sf::Event::Closed) {
-					window.close();
-				}
-			}
+			file.writeMessage("WINNER!", winner->getPositionPlayer(), -1, 'W');
+			loopRefresh();
 		}
 
 		else {
 			if (!startGame) {
-				file.writeMessage("Round started\n", -1, -1, 'R');//cambiar lo que tiene lo que tiene dentro de " xd "
-				file.writeMessage("Players on the table\n", sizePlayers, -1, 'P'); // cambiar lo que tiene " xd "
+				file.writeMessage("Game started\n", -1, -1, 'R');
+				file.writeMessage("Players on the table\n", sizePlayers, -1, 'P');
 				startGame = true;
 			}
 
@@ -460,16 +461,6 @@ void game() {
 				if (gamePlay.type == sf::Event::MouseButtonPressed && gamePlay.mouseButton.button == sf::Mouse::Left) {
 					mousePos = sf::Mouse::getPosition(window);
 
-					if (allInButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
-						playerAux->setIsBet(true);
-						playerAux->allInCurrentBet(playerAux->getToken());
-						currentBet.setString("Current bet: " + std::to_string(playerAux->getCurrentBet()));
-						token.setString("Token: " + std::to_string(playerAux->getToken()));
-						showNeedToBetMessage = false;
-						window.draw(currentBet);
-						window.draw(token);
-						window.display();
-					}
 					if (increaseBetButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
 						playerAux->setIsBet(true);
 						playerAux->increaseCurrentBet(10);
@@ -493,19 +484,18 @@ void game() {
 						file.writeMessage("Has the turn ", playerAux->getPositionPlayer(), -1, 'T');
 
 						if (playerAux->getToken() == 0 && playerAux->getCurrentBet() == 0) {
-							cout << "No tienes fichas para apostar";
+							needToBet.setString("You don't have enough token!");
 						}
 						else {
 							if (playerAux->getCurrentBet() == 0) {
 								needToBet.setString("You have to bet!");
 								showNeedToBetMessage = true;
-								cout << "No has hecho una apuesta";  //
 							}
 							else {
-								dealer.checkingRounds(counterPlayerRounds, counterRounds, sizePlayers);
-								if (counterPlayerRounds == 2 && counterRounds == 1) {
+								if (counterRounds == 1 && counterPlayerRounds == 2) {
 									dealer.setBigBlind(playerAux->getCurrentBet());
 								}
+								dealer.checkingRounds(counterPlayerRounds, counterRounds, sizePlayers);
 
 								playerAux->betIncrease(dealer);
 								file.writeMessage("bet", playerAux->getPositionPlayer(), playerAux->getCurrentBet(), 'B');
@@ -532,7 +522,7 @@ void game() {
 					}
 					if (leaveButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
 
-						file.writeMessage("Retreated from the game", playerAux->getPositionPlayer(), -1, 'O');
+						file.writeMessage("Left the game", playerAux->getPositionPlayer(), -1, 'O');
 						showNeedToBetMessage = false;
 						playerAux->setCurrentBet(0);
 						currentBet.setString("Current bet: " + std::to_string(playerAux->getCurrentBet()));
@@ -540,7 +530,6 @@ void game() {
 
 						if (!playerAux->getIsPlaying()) {
 							counterPlayerLeave--;
-							cout << counterPlayerLeave << " - ";
 						}
 						node = node->getNext();
 						playerAux = node->getPlayer();
@@ -563,6 +552,7 @@ void game() {
 					if (enterButton.getShape().getGlobalBounds().contains(mousePos.x, mousePos.y)) {
 
 						if (playerAux->getToken() >= dealer.getBigBlind()) {
+							file.writeMessage("Enter the game", playerAux->getPositionPlayer(), -1, 'E');
 							playerAux->setToken(playerAux->getToken() - dealer.getBigBlind()); //aquiiiii
 							playerAux->setIsPlaying(true);
 							counterPlayerLeave++;
@@ -584,7 +574,7 @@ void game() {
 							token.setString("Token: " + std::to_string(playerAux->getToken()));
 
 							dealer.checkingRounds(counterPlayerRounds, counterRounds, sizePlayers);
-						}
+						} 
 						else {
 							needToBet.setString("You don't have enough token!");
 							showNeedToBetMessage = true;

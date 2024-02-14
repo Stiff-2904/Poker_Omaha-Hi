@@ -14,7 +14,6 @@ public:
 	Node* getHead();
 
 	void pushPlayer(Player*);
-	Player* searchplayer(std::string);// no se esta usando
 
 	void fillAllHandsOfPlayers(Dealer&, int);
 };

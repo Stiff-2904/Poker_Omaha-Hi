@@ -1,10 +1,10 @@
 #include "safeFiles.h";
 
-const string folderName = "gameFile";
-const string fileName = "PokerGame.txt";
+const string FOLDER_NAME = "gameFile";
+const string FILE_NAME = "PokerGame.txt";
 
 void SafeFiles::createRegisterFile() {
-    ofstream file(folderName + "/" + fileName);
+    ofstream file(FOLDER_NAME + "/" + FILE_NAME);
     if (file.is_open()) {
         file << ">Game1--------------------------" << endl;
         file.close();
@@ -15,7 +15,7 @@ void SafeFiles::createRegisterFile() {
 }
 
 int SafeFiles::getNextGameNumber() {
-    ifstream file(folderName + "/" + fileName);
+    ifstream file(FOLDER_NAME + "/" + FILE_NAME);
     string line;
     int gameNumber = 0;
 
@@ -39,7 +39,7 @@ int SafeFiles::getNextGameNumber() {
 
 void SafeFiles::createNewGame() {
     int nextGameNumber = getNextGameNumber();
-    ofstream file(folderName + "/" + fileName, ios::app);
+    ofstream file(FOLDER_NAME + "/" + FILE_NAME, ios::app);
     if (file.is_open()) {
         file << "\n>Game" << nextGameNumber << "--------------------------" << endl;
         file.close();
@@ -49,12 +49,8 @@ void SafeFiles::createNewGame() {
     }
 }
 
-void SafeFiles::writeMessage(string message, int playerNumber, int chipsNumber, char messageType) {
-    // tipo de mensaje: 
-    // 'T' = Registrar turno, 'B' = Registrar apuesta, 'I' = Registrar nuevo jugador integrado, 'O' = Registrar retirada de jugador, 'W' = Registrar ganador,
-   //'R' = Ronda de registro iniciada, 'P' = Jugadores de registro en la mesa.
-
-    ofstream file(folderName + "/" + fileName, ios::app);
+void SafeFiles::writeMessage(string message, int playerNumber, int betNumber, char messageType) {
+    ofstream file(FOLDER_NAME + "/" + FILE_NAME, ios::app);
     if (file.is_open()) {
         if (messageType == 'R') {
             file << message << endl;
@@ -62,11 +58,11 @@ void SafeFiles::writeMessage(string message, int playerNumber, int chipsNumber, 
         else if (messageType == 'P') {
             file << playerNumber << " " << message << endl;
         }
-        else if (messageType == 'T' || messageType == 'I' || messageType == 'O' || messageType == 'W') {
+        else if (messageType == 'T' || messageType == 'E' || messageType == 'O' || messageType == 'W') {
             file << "Player" << playerNumber << " " << message << endl;
         }
         else if (messageType == 'B') {
-            file << "Player" << playerNumber << " " << message << " " << chipsNumber << " bets" << endl;
+            file << "Player" << playerNumber << " " << message << " " << betNumber << " bets" << endl;
         }
         file.close();
     }
